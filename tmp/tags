@@ -1,0 +1,390 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Body	/home/zyc/etao/spider/models/body.rb	/^class Body $/;"	c
+Brand	/home/zyc/etao/spider/models/brand.rb	/^class Brand$/;"	c
+BrandType	/home/zyc/etao/spider/models/brand_type.rb	/^class BrandType$/;"	c
+Category	/home/zyc/etao/spider/models/category.rb	/^class Category$/;"	c
+Comment	/home/zyc/etao/spider/models/comment.rb	/^class Comment$/;"	c
+Coo8Digger	/home/zyc/etao/spider/digger/coo8_digger.rb	/^  class Coo8Digger < Digger$/;"	c	class:Spider
+Coo8Fetcher	/home/zyc/etao/spider/fetcher/coo8_fetcher.rb	/^  class Coo8Fetcher < Fetcher$/;"	c	class:Spider
+Coo8Paginater	/home/zyc/etao/spider/paginater/coo8_paginater.rb	/^  class Coo8Paginater < Paginater$/;"	c	class:Spider
+Coo8Parser	/home/zyc/etao/spider/parser/coo8_parser.rb	/^  class Coo8Parser < Parser$/;"	c	class:Spider
+DangdangDigger	/home/zyc/etao/spider/digger/dangdang_digger.rb	/^  class DangdangDigger < Digger$/;"	c	class:Spider
+DangdangFetcher	/home/zyc/etao/spider/fetcher/dangdang_fetcher.rb	/^  class DangdangFetcher < Fetcher$/;"	c	class:Spider
+DangdangPaginater	/home/zyc/etao/spider/paginater/dangdang_paginater.rb	/^  class DangdangPaginater < Paginater$/;"	c	class:Spider
+DangdangParser	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^  class DangdangParser < Parser$/;"	c	class:Spider
+Digger	/home/zyc/etao/spider/digger.rb	/^  class Digger$/;"	c	class:Spider
+Downloader	/home/zyc/etao/spider/downloader.rb	/^  class Downloader$/;"	c	class:Spider
+EmDownloader	/home/zyc/etao/spider/downloader/em_downloader.rb	/^  class EmDownloader < Downloader$/;"	c	class:Spider
+Encoding	/home/zyc/etao/spider/encoding.rb	/^  module Encoding$/;"	m	class:Spider
+EndProduct	/home/zyc/etao/spider/models/end_product.rb	/^class EndProduct$/;"	c
+Fetcher	/home/zyc/etao/spider/fetcher.rb	/^  class Fetcher$/;"	c	class:Spider
+JingdongDigger	/home/zyc/etao/spider/digger/jingdong_digger.rb	/^  class JingdongDigger < Digger$/;"	c	class:Spider
+JingdongFetcher	/home/zyc/etao/spider/fetcher/jingdong_fetcher.rb	/^  class JingdongFetcher < Fetcher$/;"	c	class:Spider
+JingdongPaginater	/home/zyc/etao/spider/paginater/jingdong_paginater.rb	/^  class JingdongPaginater < Paginater$/;"	c	class:Spider
+JingdongParser	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^  class JingdongParser < Parser$/;"	c	class:Spider
+Logger	/home/zyc/etao/spider/logger.rb	/^  module Logger$/;"	m	class:Spider
+MartDigger	/home/zyc/etao/spider/digger/mart_digger.rb	/^  class MartDigger < Digger$/;"	c	class:Spider
+MartFetcher	/home/zyc/etao/spider/fetcher/mart_fetcher.rb	/^  class MartFetcher < Fetcher$/;"	c	class:Spider
+MartPaginater	/home/zyc/etao/spider/paginater/mart_paginater.rb	/^  class MartPaginater < Paginater$/;"	c	class:Spider
+MartParser	/home/zyc/etao/spider/parser/mart_parser.rb	/^  class MartParser < Parser$/;"	c	class:Spider
+Merchant	/home/zyc/etao/spider/models/merchant.rb	/^class Merchant$/;"	c
+MiddleProduct	/home/zyc/etao/spider/models/middle_product.rb	/^class MiddleProduct$/;"	c
+NeweggDigger	/home/zyc/etao/spider/digger/newegg_digger.rb	/^  class NeweggDigger < Digger$/;"	c	class:Spider
+NeweggFetcher	/home/zyc/etao/spider/fetcher/newegg_fetcher.rb	/^  class NeweggFetcher < Fetcher$/;"	c	class:Spider
+NeweggPaginater	/home/zyc/etao/spider/paginater/newegg_paginater.rb	/^  class NeweggPaginater < Paginater$/;"	c	class:Spider
+NeweggParser	/home/zyc/etao/spider/parser/newegg_parser.rb	/^  class NeweggParser < Parser$/;"	c	class:Spider
+NormalDownloader	/home/zyc/etao/spider/downloader/normal_downloader.rb	/^  class NormalDownloader < Downloader$/;"	c	class:Spider
+OrangeDigger	/home/zyc/etao/spider/digger/orange_digger.rb	/^  class OrangeDigger < Digger$/;"	c	class:Spider
+OrangeFetcher	/home/zyc/etao/spider/fetcher/orange_fetcher.rb	/^  class OrangeFetcher < Fetcher$/;"	c	class:Spider
+OrangePaginater	/home/zyc/etao/spider/paginater/orange_paginater.rb	/^  class OrangePaginater < Paginater$/;"	c	class:Spider
+OrangeParser	/home/zyc/etao/spider/parser/orange_parser.rb	/^  class OrangeParser < Parser$/;"	c	class:Spider
+Page	/home/zyc/etao/spider/models/page.rb	/^class Page $/;"	c
+Paginater	/home/zyc/etao/spider/paginater.rb	/^  class Paginater $/;"	c	class:Spider
+Parser	/home/zyc/etao/spider/parser.rb	/^  class Parser$/;"	c	class:Spider
+Product	/home/zyc/etao/spider/models/product.rb	/^class Product$/;"	c
+ProductUrl	/home/zyc/etao/spider/models/product_url.rb	/^class ProductUrl$/;"	c
+RedbabyDigger	/home/zyc/etao/spider/digger/redbaby_digger.rb	/^	class RedbabyDigger < Digger$/;"	c	class:Spider
+RedbabyFetcher	/home/zyc/etao/spider/fetcher/redbaby_fetcher.rb	/^  class	RedbabyFetcher < Fetcher$/;"	c	class:Spider
+RedbabyPaginater	/home/zyc/etao/spider/paginater/redbaby_paginater.rb	/^	class	RedbabyPaginater < Paginater$/;"	c	class:Spider
+RedbabyParser	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^	class RedbabyParser < Parser$/;"	c	class:Spider
+Shop	/home/zyc/etao/spider/models/shop.rb	/^class Shop $/;"	c
+Spider	/home/zyc/etao/spider/digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/coo8_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/dangdang_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/jingdong_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/mart_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/newegg_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/orange_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/redbaby_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/taobao_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/tmall_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/vancl_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/yidianda_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/digger/yihaodian_digger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/downloader.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/downloader/em_downloader.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/downloader/normal_downloader.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/downloader/ty_downloader.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/encoding.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/coo8_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/dangdang_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/jingdong_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/mart_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/newegg_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/orange_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/redbaby_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/taobao_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/tmall_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/vancl_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/yidianda_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/fetcher/yihaodian_fetcher.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/logger.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/coo8_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/dangdang_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/jingdong_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/mart_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/newegg_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/orange_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/redbaby_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/taobao_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/tmall_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/vancl_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/yidianda_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/paginater/yihaodian_paginater.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/coo8_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/mart_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/newegg_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/orange_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/taobao_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/tmall_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/vancl_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^module Spider$/;"	m
+Spider	/home/zyc/etao/spider/utils/utils.rb	/^module Spider$/;"	m
+TaobaoDigger	/home/zyc/etao/spider/digger/taobao_digger.rb	/^  class TaobaoDigger < Digger$/;"	c	class:Spider
+TaobaoFetcher	/home/zyc/etao/spider/fetcher/taobao_fetcher.rb	/^  class TaobaoFetcher < Fetcher$/;"	c	class:Spider
+TaobaoPaginater	/home/zyc/etao/spider/paginater/taobao_paginater.rb	/^  class TaobaoPaginater < Paginater$/;"	c	class:Spider
+TaobaoParser	/home/zyc/etao/spider/parser/taobao_parser.rb	/^  class TaobaoParser < Parser$/;"	c	class:Spider
+TmallDigger	/home/zyc/etao/spider/digger/tmall_digger.rb	/^  class TmallDigger < Digger$/;"	c	class:Spider
+TmallFetcher	/home/zyc/etao/spider/fetcher/tmall_fetcher.rb	/^  class TmallFetcher < Fetcher$/;"	c	class:Spider
+TmallPaginater	/home/zyc/etao/spider/paginater/tmall_paginater.rb	/^  class TmallPaginater < Paginater$/;"	c	class:Spider
+TmallParser	/home/zyc/etao/spider/parser/tmall_parser.rb	/^  class TmallParser < Parser$/;"	c	class:Spider
+TopProduct	/home/zyc/etao/spider/models/top_product.rb	/^class TopProduct$/;"	c
+TyDownloader	/home/zyc/etao/spider/downloader/ty_downloader.rb	/^  class TyDownloader < Downloader$/;"	c	class:Spider
+Utils	/home/zyc/etao/spider/utils/utils.rb	/^  module Utils$/;"	m	class:Spider
+VanclDigger	/home/zyc/etao/spider/digger/vancl_digger.rb	/^  class VanclDigger < Digger$/;"	c	class:Spider
+VanclFetcher	/home/zyc/etao/spider/fetcher/vancl_fetcher.rb	/^  class VanclFetcher < Fetcher$/;"	c	class:Spider
+VanclPaginater	/home/zyc/etao/spider/paginater/vancl_paginater.rb	/^  class VanclPaginater < Paginater$/;"	c	class:Spider
+VanclParser	/home/zyc/etao/spider/parser/vancl_parser.rb	/^  class VanclParser < Parser$/;"	c	class:Spider
+YidiandaDigger	/home/zyc/etao/spider/digger/yidianda_digger.rb	/^  class YidiandaDigger < Digger$/;"	c	class:Spider
+YidiandaFetcher	/home/zyc/etao/spider/fetcher/yidianda_fetcher.rb	/^  class YidiandaFetcher < Fetcher$/;"	c	class:Spider
+YidiandaPaginater	/home/zyc/etao/spider/paginater/yidianda_paginater.rb	/^  class YidiandaPaginater < Paginater$/;"	c	class:Spider
+YidiandaParser	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^  class YidiandaParser < Parser$/;"	c	class:Spider
+YihaodianDigger	/home/zyc/etao/spider/digger/yihaodian_digger.rb	/^  class YihaodianDigger < Digger$/;"	c	class:Spider
+YihaodianFetcher	/home/zyc/etao/spider/fetcher/yihaodian_fetcher.rb	/^  class YihaodianFetcher < Fetcher$/;"	c	class:Spider
+YihaodianPaginater	/home/zyc/etao/spider/paginater/yihaodian_paginater.rb	/^  class YihaodianPaginater < Paginater$/;"	c	class:Spider
+YihaodianParser	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^  class YihaodianParser < Parser$/;"	c	class:Spider
+assoc_category	/home/zyc/etao/spider/script/run_parser	/^def assoc_category(list, kind)$/;"	f
+attributes	/home/zyc/etao/spider/parser.rb	/^    def attributes$/;"	f	class:Spider.Parser
+attributes	/home/zyc/etao/spider/parser/taobao_parser.rb	/^    def attributes$/;"	f	class:Spider.TaobaoParser
+belongs_to_categories	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def belongs_to_categories$/;"	f	class:Spider.JingdongParser
+brand	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def brand$/;"	f	class:Spider.Coo8Parser
+brand	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def brand$/;"	f	class:Spider.DangdangParser
+brand	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def brand$/;"	f	class:Spider.JingdongParser
+brand	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def brand$/;"	f	class:Spider.MartParser
+brand	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def brand$/;"	f	class:Spider
+brand	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def brand$/;"	f	class:Spider.OrangeParser
+brand	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def brand$/;"	f	class:Spider.RedbabyParser
+brand	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def brand$/;"	f	class:Spider.TmallParser
+brand	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def brand$/;"	f	class:Spider.VanclParser
+brand	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def brand$/;"	f	class:Spider.YidiandaParser
+brand	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def brand$/;"	f	class:Spider.YihaodianParser
+brand_type	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def brand_type$/;"	f	class:Spider.Coo8Parser
+brand_type	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def brand_type$/;"	f	class:Spider.DangdangParser
+brand_type	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def brand_type$/;"	f	class:Spider.JingdongParser
+brand_type	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def brand_type$/;"	f	class:Spider.MartParser
+brand_type	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def brand_type$/;"	f	class:Spider
+brand_type	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def brand_type$/;"	f	class:Spider.OrangeParser
+brand_type	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def brand_type$/;"	f	class:Spider.RedbabyParser
+brand_type	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def brand_type$/;"	f	class:Spider.TmallParser
+brand_type	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def brand_type$/;"	f	class:Spider.VanclParser
+brand_type	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def brand_type$/;"	f	class:Spider.YidiandaParser
+brand_type	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def brand_type$/;"	f	class:Spider.YihaodianParser
+category_list	/home/zyc/etao/spider/fetcher/coo8_fetcher.rb	/^    def self.category_list$/;"	F	class:Spider.Coo8Fetcher
+category_list	/home/zyc/etao/spider/fetcher/dangdang_fetcher.rb	/^    def self.category_list$/;"	F	class:Spider.DangdangFetcher
+category_list	/home/zyc/etao/spider/fetcher/jingdong_fetcher.rb	/^    def self.category_list$/;"	F	class:Spider.JingdongFetcher
+category_list	/home/zyc/etao/spider/fetcher/mart_fetcher.rb	/^    def self.category_list$/;"	F	class:Spider.MartFetcher
+category_list	/home/zyc/etao/spider/fetcher/newegg_fetcher.rb	/^    def self.category_list$/;"	F	class:Spider.NeweggFetcher
+category_list	/home/zyc/etao/spider/fetcher/orange_fetcher.rb	/^    def self.category_list$/;"	F	class:Spider.OrangeFetcher
+category_list	/home/zyc/etao/spider/fetcher/redbaby_fetcher.rb	/^		def self.category_list$/;"	F	class:Spider.RedbabyFetcher
+category_list	/home/zyc/etao/spider/fetcher/taobao_fetcher.rb	/^    def self.category_list$/;"	F	class:Spider.TaobaoFetcher
+category_list	/home/zyc/etao/spider/fetcher/tmall_fetcher.rb	/^    def self.category_list$/;"	F	class:Spider.TmallFetcher
+category_list	/home/zyc/etao/spider/fetcher/vancl_fetcher.rb	/^    def self.category_list$/;"	F	class:Spider.VanclFetcher
+category_list	/home/zyc/etao/spider/fetcher/yidianda_fetcher.rb	/^    def self.category_list$/;"	F	class:Spider.YidiandaFetcher
+category_list	/home/zyc/etao/spider/fetcher/yihaodian_fetcher.rb	/^    def self.category_list$/;"	F	class:Spider.YihaodianFetcher
+comments	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def comments$/;"	f	class:Spider.Coo8Parser
+comments	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def comments$/;"	f	class:Spider.DangdangParser
+comments	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def comments$/;"	f	class:Spider.JingdongParser
+comments	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def comments$/;"	f	class:Spider.MartParser
+comments	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def comments$/;"	f	class:Spider.NeweggParser
+comments	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def comments$/;"	f	class:Spider.OrangeParser
+comments	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def comments$/;"	f	class:Spider.RedbabyParser
+comments	/home/zyc/etao/spider/parser/taobao_parser.rb	/^    def comments$/;"	f	class:Spider
+comments	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def comments$/;"	f	class:Spider.TmallParser
+comments	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def comments$/;"	f	class:Spider.VanclParser
+comments	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def comments$/;"	f	class:Spider.YidiandaParser
+comments	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def comments$/;"	f	class:Spider.YihaodianParser
+decompress_gzip	/home/zyc/etao/spider/utils/utils.rb	/^    def decompress_gzip(string)$/;"	f	class:Spider.Utils
+desc	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def desc$/;"	f	class:Spider.DangdangParser
+desc	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def desc$/;"	f	class:Spider.JingdongParser
+desc	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def desc$/;"	f	class:Spider.MartParser
+desc	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def desc$/;"	f	class:Spider.NeweggParser
+desc	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def desc$/;"	f	class:Spider.OrangeParser
+desc	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def desc$/;"	f	class:Spider.RedbabyParser
+desc	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def desc$/;"	f	class:Spider.TmallParser
+desc	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def desc$/;"	f	class:Spider.VanclParser
+desc	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def desc$/;"	f	class:Spider.YidiandaParser
+desc	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def desc$/;"	f	class:Spider.YihaodianParser
+download	/home/zyc/etao/spider/script/run_price_parser	/^def download(product)$/;"	f
+end_product	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def end_product$/;"	f	class:Spider.Coo8Parser
+end_product	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def end_product$/;"	f	class:Spider.DangdangParser
+end_product	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def end_product$/;"	f	class:Spider.JingdongParser
+end_product	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def end_product$/;"	f	class:Spider.MartParser
+end_product	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def end_product$/;"	f	class:Spider
+end_product	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def end_product$/;"	f	class:Spider.OrangeParser
+end_product	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def end_product$/;"	f	class:Spider.RedbabyParser
+end_product	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def end_product$/;"	f	class:Spider.TmallParser
+end_product	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def end_product$/;"	f	class:Spider.VanclParser
+end_product	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def end_product$/;"	f	class:Spider.YidiandaParser
+end_product	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def end_product$/;"	f	class:Spider.YihaodianParser
+freight	/home/zyc/etao/spider/parser/taobao_parser.rb	/^    def freight$/;"	f	class:Spider.TaobaoParser
+get_end_product	/home/zyc/etao/spider/models/end_product.rb	/^  def self.get_end_product(end_product_name)$/;"	F	class:EndProduct
+hash2query	/home/zyc/etao/spider/utils/utils.rb	/^    def hash2query(hash)$/;"	f	class:Spider.Utils
+image_url	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def image_url$/;"	f	class:Spider.Coo8Parser
+image_url	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def image_url$/;"	f	class:Spider.DangdangParser
+image_url	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def image_url$/;"	f	class:Spider.JingdongParser
+image_url	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def image_url$/;"	f	class:Spider.MartParser
+image_url	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def image_url$/;"	f	class:Spider.NeweggParser
+image_url	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def image_url$/;"	f	class:Spider.OrangeParser
+image_url	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def image_url$/;"	f	class:Spider.RedbabyParser
+image_url	/home/zyc/etao/spider/parser/taobao_parser.rb	/^    def image_url$/;"	f	class:Spider
+image_url	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def image_url$/;"	f	class:Spider.TmallParser
+image_url	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def image_url$/;"	f	class:Spider.VanclParser
+image_url	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def image_url$/;"	f	class:Spider.YidiandaParser
+image_url	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def image_url$/;"	f	class:Spider.YihaodianParser
+initialize	/home/zyc/etao/spider/digger/coo8_digger.rb	/^    def initialize(page)$/;"	f	class:Spider.Coo8Digger
+initialize	/home/zyc/etao/spider/digger/dangdang_digger.rb	/^    def initialize(page)$/;"	f	class:Spider.DangdangDigger
+initialize	/home/zyc/etao/spider/digger/jingdong_digger.rb	/^    def initialize(page)$/;"	f	class:Spider.JingdongDigger
+initialize	/home/zyc/etao/spider/digger/mart_digger.rb	/^    def initialize(page)$/;"	f	class:Spider.MartDigger
+initialize	/home/zyc/etao/spider/digger/newegg_digger.rb	/^    def initialize(page)$/;"	f	class:Spider.NeweggDigger
+initialize	/home/zyc/etao/spider/digger/orange_digger.rb	/^    def initialize(page)$/;"	f	class:Spider.OrangeDigger
+initialize	/home/zyc/etao/spider/digger/redbaby_digger.rb	/^		def initialize(page)$/;"	f	class:Spider.RedbabyDigger
+initialize	/home/zyc/etao/spider/digger/taobao_digger.rb	/^    def initialize(pagination_link)$/;"	f	class:Spider.TaobaoDigger
+initialize	/home/zyc/etao/spider/digger/tmall_digger.rb	/^    def initialize(page)$/;"	f	class:Spider.TmallDigger
+initialize	/home/zyc/etao/spider/digger/vancl_digger.rb	/^    def initialize(page)$/;"	f	class:Spider.VanclDigger
+initialize	/home/zyc/etao/spider/digger/yidianda_digger.rb	/^    def initialize(page)$/;"	f	class:Spider.YidiandaDigger
+initialize	/home/zyc/etao/spider/digger/yihaodian_digger.rb	/^    def initialize(page)$/;"	f	class:Spider.YihaodianDigger
+initialize	/home/zyc/etao/spider/downloader/em_downloader.rb	/^    def initialize(items)$/;"	f	class:Spider.EmDownloader
+initialize	/home/zyc/etao/spider/downloader/normal_downloader.rb	/^    def initialize(items)$/;"	f	class:Spider.NormalDownloader
+initialize	/home/zyc/etao/spider/downloader/ty_downloader.rb	/^    def initialize(items)$/;"	f	class:Spider.TyDownloader
+initialize	/home/zyc/etao/spider/paginater/coo8_paginater.rb	/^    def initialize(item)$/;"	f	class:Spider.Coo8Paginater
+initialize	/home/zyc/etao/spider/paginater/dangdang_paginater.rb	/^    def initialize(item)$/;"	f	class:Spider.DangdangPaginater
+initialize	/home/zyc/etao/spider/paginater/jingdong_paginater.rb	/^    def initialize(item)$/;"	f	class:Spider.JingdongPaginater
+initialize	/home/zyc/etao/spider/paginater/mart_paginater.rb	/^    def initialize(item)$/;"	f	class:Spider.MartPaginater
+initialize	/home/zyc/etao/spider/paginater/newegg_paginater.rb	/^    def initialize(item)$/;"	f	class:Spider.NeweggPaginater
+initialize	/home/zyc/etao/spider/paginater/orange_paginater.rb	/^    def initialize(item)$/;"	f	class:Spider.OrangePaginater
+initialize	/home/zyc/etao/spider/paginater/redbaby_paginater.rb	/^		def initialize(item)$/;"	f	class:Spider.RedbabyPaginater
+initialize	/home/zyc/etao/spider/paginater/taobao_paginater.rb	/^    def initialize(category_link)$/;"	f	class:Spider.TaobaoPaginater
+initialize	/home/zyc/etao/spider/paginater/tmall_paginater.rb	/^    def initialize(item)$/;"	f	class:Spider.TmallPaginater
+initialize	/home/zyc/etao/spider/paginater/vancl_paginater.rb	/^    def initialize(item)$/;"	f	class:Spider.VanclPaginater
+initialize	/home/zyc/etao/spider/paginater/yidianda_paginater.rb	/^    def initialize(item)$/;"	f	class:Spider.YidiandaPaginater
+initialize	/home/zyc/etao/spider/paginater/yihaodian_paginater.rb	/^    def initialize(item)$/;"	f	class:Spider.YihaodianPaginater
+initialize	/home/zyc/etao/spider/parser.rb	/^    def initialize(product)$/;"	f	class:Spider.Parser
+initialize	/home/zyc/etao/spider/parser/taobao_parser.rb	/^    def initialize(product_url)$/;"	f	class:Spider.TaobaoParser
+load_digger	/home/zyc/etao/spider/utils/utils.rb	/^    def load_digger$/;"	f	class:Spider.Utils
+load_downloader	/home/zyc/etao/spider/utils/utils.rb	/^    def load_downloader$/;"	f	class:Spider.Utils
+load_fetcher	/home/zyc/etao/spider/utils/utils.rb	/^    def load_fetcher$/;"	f	class:Spider.Utils
+load_models	/home/zyc/etao/spider/utils/utils.rb	/^    def load_models$/;"	f	class:Spider.Utils
+load_mongo	/home/zyc/etao/spider/utils/utils.rb	/^    def load_mongo(environment)$/;"	f	class:Spider.Utils
+load_paginater	/home/zyc/etao/spider/utils/utils.rb	/^    def load_paginater$/;"	f	class:Spider.Utils
+load_parser	/home/zyc/etao/spider/utils/utils.rb	/^    def load_parser$/;"	f	class:Spider.Utils
+location_area	/home/zyc/etao/spider/parser/taobao_parser.rb	/^    def location_area$/;"	f	class:Spider.TaobaoParser
+logger	/home/zyc/etao/spider/logger.rb	/^    def logger $/;"	f	class:Spider.Logger
+logger_file	/home/zyc/etao/spider/logger.rb	/^    def logger_file$/;"	f	class:Spider.Logger
+max_concurrency	/home/zyc/etao/spider/downloader.rb	/^    def max_concurrency$/;"	f	class:Spider.Downloader
+merchant	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def merchant$/;"	f	class:Spider.Coo8Parser
+merchant	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def merchant$/;"	f	class:Spider.DangdangParser
+merchant	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def merchant$/;"	f	class:Spider.JingdongParser
+merchant	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def merchant$/;"	f	class:Spider.MartParser
+merchant	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def merchant$/;"	f	class:Spider
+merchant	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def merchant$/;"	f	class:Spider.OrangeParser
+merchant	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def merchant$/;"	f	class:Spider.RedbabyParser
+merchant	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def merchant$/;"	f	class:Spider.TmallParser
+merchant	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def merchant$/;"	f	class:Spider.VanclParser
+merchant	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def merchant$/;"	f	class:Spider.YidiandaParser
+merchant	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def merchant$/;"	f	class:Spider.YihaodianParser
+pagination_list	/home/zyc/etao/spider/paginater/coo8_paginater.rb	/^    def pagination_list$/;"	f	class:Spider.Coo8Paginater
+pagination_list	/home/zyc/etao/spider/paginater/dangdang_paginater.rb	/^    def pagination_list$/;"	f	class:Spider.DangdangPaginater
+pagination_list	/home/zyc/etao/spider/paginater/jingdong_paginater.rb	/^    def pagination_list$/;"	f	class:Spider.JingdongPaginater
+pagination_list	/home/zyc/etao/spider/paginater/mart_paginater.rb	/^    def pagination_list$/;"	f	class:Spider.MartPaginater
+pagination_list	/home/zyc/etao/spider/paginater/newegg_paginater.rb	/^    def pagination_list$/;"	f	class:Spider.NeweggPaginater
+pagination_list	/home/zyc/etao/spider/paginater/orange_paginater.rb	/^    def pagination_list$/;"	f	class:Spider.OrangePaginater
+pagination_list	/home/zyc/etao/spider/paginater/redbaby_paginater.rb	/^		def pagination_list$/;"	f	class:Spider.RedbabyPaginater
+pagination_list	/home/zyc/etao/spider/paginater/taobao_paginater.rb	/^    def pagination_list$/;"	f	class:Spider.TaobaoPaginater
+pagination_list	/home/zyc/etao/spider/paginater/tmall_paginater.rb	/^    def pagination_list$/;"	f	class:Spider.TmallPaginater
+pagination_list	/home/zyc/etao/spider/paginater/vancl_paginater.rb	/^    def pagination_list$/;"	f	class:Spider.VanclPaginater
+pagination_list	/home/zyc/etao/spider/paginater/yidianda_paginater.rb	/^    def pagination_list$/;"	f	class:Spider.YidiandaPaginater
+pagination_list	/home/zyc/etao/spider/paginater/yihaodian_paginater.rb	/^    def pagination_list$/;"	f	class:Spider.YihaodianPaginater
+price	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def price$/;"	f	class:Spider.Coo8Parser
+price	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def price$/;"	f	class:Spider.DangdangParser
+price	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def price$/;"	f	class:Spider.JingdongParser
+price	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def price$/;"	f	class:Spider.MartParser
+price	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def price$/;"	f	class:Spider.NeweggParser
+price	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def price$/;"	f	class:Spider.OrangeParser
+price	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def price$/;"	f	class:Spider.RedbabyParser
+price	/home/zyc/etao/spider/parser/taobao_parser.rb	/^    def price$/;"	f	class:Spider.TaobaoParser
+price	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def price$/;"	f	class:Spider.TmallParser
+price	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def price$/;"	f	class:Spider.VanclParser
+price	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def price$/;"	f	class:Spider.YidiandaParser
+price	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def price$/;"	f	class:Spider.YihaodianParser
+price_url	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def price_url$/;"	f	class:Spider.Coo8Parser
+price_url	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def price_url$/;"	f	class:Spider.DangdangParser
+price_url	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def price_url$/;"	f	class:Spider.JingdongParser
+price_url	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def price_url$/;"	f	class:Spider.MartParser
+price_url	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def price_url$/;"	f	class:Spider.NeweggParser
+price_url	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def price_url$/;"	f	class:Spider.OrangeParser
+price_url	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def price_url$/;"	f	class:Spider.RedbabyParser
+price_url	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def price_url$/;"	f	class:Spider.TmallParser
+price_url	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def price_url$/;"	f	class:Spider.VanclParser
+price_url	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def price_url$/;"	f	class:Spider.YidiandaParser
+price_url	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def price_url$/;"	f	class:Spider.YihaodianParser
+product_code	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def product_code$/;"	f	class:Spider.Coo8Parser
+product_code	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def product_code$/;"	f	class:Spider.DangdangParser
+product_code	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def product_code$/;"	f	class:Spider.JingdongParser
+product_code	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def product_code$/;"	f	class:Spider.NeweggParser
+product_code	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def product_code$/;"	f	class:Spider.RedbabyParser
+product_code	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def product_code$/;"	f	class:Spider.TmallParser
+product_code	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def product_code$/;"	f	class:Spider.VanclParser
+product_code	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def product_code$/;"	f	class:Spider.YihaodianParser
+product_list	/home/zyc/etao/spider/digger/coo8_digger.rb	/^    def product_list $/;"	f	class:Spider.Coo8Digger
+product_list	/home/zyc/etao/spider/digger/dangdang_digger.rb	/^    def product_list $/;"	f	class:Spider.DangdangDigger
+product_list	/home/zyc/etao/spider/digger/jingdong_digger.rb	/^    def product_list $/;"	f	class:Spider.JingdongDigger
+product_list	/home/zyc/etao/spider/digger/mart_digger.rb	/^    def product_list $/;"	f	class:Spider.MartDigger
+product_list	/home/zyc/etao/spider/digger/newegg_digger.rb	/^    def product_list $/;"	f	class:Spider.NeweggDigger
+product_list	/home/zyc/etao/spider/digger/orange_digger.rb	/^    def product_list $/;"	f	class:Spider.OrangeDigger
+product_list	/home/zyc/etao/spider/digger/redbaby_digger.rb	/^		def product_list$/;"	f	class:Spider.RedbabyDigger
+product_list	/home/zyc/etao/spider/digger/taobao_digger.rb	/^    def product_list $/;"	f	class:Spider.TaobaoDigger
+product_list	/home/zyc/etao/spider/digger/tmall_digger.rb	/^    def product_list $/;"	f	class:Spider.TmallDigger
+product_list	/home/zyc/etao/spider/digger/vancl_digger.rb	/^    def product_list $/;"	f	class:Spider.VanclDigger
+product_list	/home/zyc/etao/spider/digger/yidianda_digger.rb	/^    def product_list $/;"	f	class:Spider.YidiandaDigger
+product_list	/home/zyc/etao/spider/digger/yihaodian_digger.rb	/^    def product_list $/;"	f	class:Spider.YihaodianDigger
+query2hash	/home/zyc/etao/spider/utils/utils.rb	/^    def query2hash(query_str)$/;"	f	class:Spider.Utils
+run	/home/zyc/etao/spider/downloader/em_downloader.rb	/^    def run$/;"	f	class:Spider.EmDownloader
+run	/home/zyc/etao/spider/downloader/normal_downloader.rb	/^    def run$/;"	f	class:Spider.NormalDownloader
+run	/home/zyc/etao/spider/downloader/ty_downloader.rb	/^    def run$/;"	f	class:Spider.TyDownloader
+save_image	/home/zyc/etao/spider/script/run_price_parser	/^def save_image(product, image)$/;"	f
+score	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def score$/;"	f	class:Spider.Coo8Parser
+score	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def score$/;"	f	class:Spider.DangdangParser
+score	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def score$/;"	f	class:Spider.JingdongParser
+score	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def score$/;"	f	class:Spider.MartParser
+score	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def score$/;"	f	class:Spider.NeweggParser
+score	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def score$/;"	f	class:Spider.OrangeParser
+score	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def score$/;"	f	class:Spider.RedbabyParser
+score	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def score$/;"	f	class:Spider.TmallParser
+score	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def score$/;"	f	class:Spider.VanclParser
+score	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def score$/;"	f	class:Spider.YidiandaParser
+score	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def score$/;"	f	class:Spider.YihaodianParser
+set_assoc!	/home/zyc/etao/spider/script/run_parser	/^def set_assoc!(cate_list)$/;"	f
+set_utf8_html	/home/zyc/etao/spider/encoding.rb	/^    def self.set_utf8_html(item, html)$/;"	F	class:Spider.Encoding
+sold	/home/zyc/etao/spider/parser/taobao_parser.rb	/^    def sold$/;"	f	class:Spider.TaobaoParser
+standard	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def standard$/;"	f	class:Spider.Coo8Parser
+standard	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def standard$/;"	f	class:Spider.DangdangParser
+standard	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def standard$/;"	f	class:Spider.JingdongParser
+standard	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def standard$/;"	f	class:Spider.MartParser
+standard	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def standard$/;"	f	class:Spider.NeweggParser
+standard	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def standard$/;"	f	class:Spider.OrangeParser
+standard	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def standard$/;"	f	class:Spider.RedbabyParser
+standard	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def standard$/;"	f	class:Spider.TmallParser
+standard	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def standard$/;"	f	class:Spider.VanclParser
+standard	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def standard$/;"	f	class:Spider.YidiandaParser
+standard	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def standard$/;"	f	class:Spider.YihaodianParser
+start_digg	/home/zyc/etao/spider/script/run_digger	/^def start_digg(page)$/;"	f
+start_paginate	/home/zyc/etao/spider/script/run_paginater	/^def start_paginate(category)$/;"	f
+start_parse	/home/zyc/etao/spider/script/run_parser	/^def start_parse(product_url)$/;"	f
+start_parse	/home/zyc/etao/spider/script/run_price_parser	/^def start_parse(product)$/;"	f
+stock	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def stock$/;"	f	class:Spider.Coo8Parser
+stock	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def stock$/;"	f	class:Spider.DangdangParser
+stock	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def stock$/;"	f	class:Spider.JingdongParser
+stock	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def stock$/;"	f	class:Spider.MartParser
+stock	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def stock$/;"	f	class:Spider.NeweggParser
+stock	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def stock$/;"	f	class:Spider.OrangeParser
+stock	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def stock$/;"	f	class:Spider.RedbabyParser
+stock	/home/zyc/etao/spider/parser/taobao_parser.rb	/^    def stock$/;"	f	class:Spider.TaobaoParser
+stock	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def stock$/;"	f	class:Spider.TmallParser
+stock	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def stock$/;"	f	class:Spider.VanclParser
+stock	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def stock$/;"	f	class:Spider.YidiandaParser
+stock	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def stock$/;"	f	class:Spider.YihaodianParser
+title	/home/zyc/etao/spider/parser/coo8_parser.rb	/^    def title$/;"	f	class:Spider.Coo8Parser
+title	/home/zyc/etao/spider/parser/dangdang_parser.rb	/^    def title$/;"	f	class:Spider.DangdangParser
+title	/home/zyc/etao/spider/parser/jingdong_parser.rb	/^    def title$/;"	f	class:Spider.JingdongParser
+title	/home/zyc/etao/spider/parser/mart_parser.rb	/^    def title$/;"	f	class:Spider.MartParser
+title	/home/zyc/etao/spider/parser/newegg_parser.rb	/^    def title$/;"	f	class:Spider.NeweggParser
+title	/home/zyc/etao/spider/parser/orange_parser.rb	/^    def title$/;"	f	class:Spider.OrangeParser
+title	/home/zyc/etao/spider/parser/redbaby_parser.rb	/^		def title$/;"	f	class:Spider.RedbabyParser
+title	/home/zyc/etao/spider/parser/taobao_parser.rb	/^    def title$/;"	f	class:Spider.TaobaoParser
+title	/home/zyc/etao/spider/parser/tmall_parser.rb	/^    def title$/;"	f	class:Spider.TmallParser
+title	/home/zyc/etao/spider/parser/vancl_parser.rb	/^    def title$/;"	f	class:Spider.VanclParser
+title	/home/zyc/etao/spider/parser/yidianda_parser.rb	/^    def title$/;"	f	class:Spider.YidiandaParser
+title	/home/zyc/etao/spider/parser/yihaodian_parser.rb	/^    def title$/;"	f	class:Spider.YihaodianParser
+valid_html?	/home/zyc/etao/spider/utils/utils.rb	/^    def valid_html?(html)$/;"	f	class:Spider.Utils

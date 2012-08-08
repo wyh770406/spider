@@ -1,0 +1,12 @@
+error callback 
+3.熟悉Mongodb、Mongoid
+4.容错、错误处理
+8.日志系统
+9.显示爬取进度
+Encoding in ruby 1.9
+http://yehudakatz.com/2010/05/05/ruby-1-9-encodings-a-primer-and-the-solution-for-rails/
+http://blog.grayproductions.net/articles/ruby_19s_three_default_encodings
+http://ruby.runpaint.org/encoding.html
+http://blog.segment7.net/2010/12/17/from-iconv-iconv-to-string-encode
+
+tmall fetcher ignore url:http://list.tmall.com/search_product.htm?search_condition=1&style=w&sort=s&start_price=20&n=20&s=0&cat=50031557&is=cate

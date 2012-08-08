@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby -EUTF-8
+# encoding: utf-8
+require 'open-uri'
+require 'nokogiri'
+require 'timeout'
+require 'rtesseract'
+require File.expand_path(File.dirname(__FILE__) + "/../utils/utils")
+require File.expand_path(File.dirname(__FILE__) + "/../utils/optparse")
+require File.expand_path(File.dirname(__FILE__) + "/../logger")
+
+Spider::Utils.load_mongo(SpiderOptions[:environment])
+Spider::Utils.load_models
+
+include Spider::Logger
+
+#开始解析
+def start_updat(product)
+
+
+puts product.product_url.url
+doc = Nokogiri::HTML(open(product.product_url.url).read.encode("UTF-8",  :undef => :replace, :replace => "?", :invalid => :replace))
+dprice=0
+#if doc.css("ul#tourPrice li:first").first
+#if doc.css("ul#tourPrice li:first").first.next_element
+# dprice=doc.css("ul#tourPrice li:first").first.next_element.css("span.fb font.cdyellow.f18").text.to_f if doc.css("ul#tourPrice li:first").first.next_element.css("span.fb font.cdyellow.f18")
+#end
+#end
+dprice=doc.css("ul#tourPrice li:first span.fb font.cdyellow.f18").first.text.to_f if doc.css("ul#tourPrice li:first span.fb font.cdyellow.f18").first
+if dprice>15
+product.update_attributes!(:price => dprice ) 
+
+puts "succesfully update productprice"
+end
+
+end
+
+products = Product.from_kind(SpiderOptions[:name]).where(:price=>0).limit(SpiderOptions[:number])
+products.each do |product|
+  start_updat(product)
+end

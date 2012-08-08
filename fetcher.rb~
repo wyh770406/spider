@@ -1,0 +1,44 @@
+# encoding: utf-8
+#!/usr/bin/env ruby
+require File.expand_path(File.dirname(__FILE__) + "/logger")
+
+module Spider
+  class Fetcher
+    include Spider::Logger
+  end
+  autoload :DangdangFetcher,     File.join(File.dirname(__FILE__), "fetcher", "dangdang_fetcher")
+  autoload :JingdongFetcher,     File.join(File.dirname(__FILE__), "fetcher", "jingdong_fetcher")
+  autoload :TaobaoFetcher, 	 File.join(File.dirname(__FILE__), "fetcher", "taobao_fetcher")
+  autoload :TmallFetcher,	 File.join(File.dirname(__FILE__), "fetcher", "tmall_fetcher")
+  autoload :NeweggFetcher,	 File.join(File.dirname(__FILE__), "fetcher", "newegg_fetcher")
+  autoload :Coo8Fetcher,	 File.join(File.dirname(__FILE__), "fetcher", "coo8_fetcher")
+  autoload :SuningFetcher,       File.join(File.dirname(__FILE__), "fetcher", "suning_fetcher")
+  autoload :GomeFetcher,         File.join(File.dirname(__FILE__), "fetcher", "gome_fetcher")
+  autoload :YihaodianFetcher,	 File.join(File.dirname(__FILE__), "fetcher", "yihaodian_fetcher")
+  autoload :VanclFetcher,	       File.join(File.dirname(__FILE__), "fetcher", "vancl_fetcher")
+  autoload :MartFetcher,	       File.join(File.dirname(__FILE__), "fetcher", "mart_fetcher")
+  autoload :OrangeFetcher,	       File.join(File.dirname(__FILE__), "fetcher", "orange_fetcher")
+  autoload :YidiandaFetcher,	       File.join(File.dirname(__FILE__), "fetcher", "yidianda_fetcher")
+  autoload :RedbabyFetcher,	       File.join(File.dirname(__FILE__), "fetcher", "redbaby_fetcher")
+  autoload :DangdangbookFetcher,	 File.join(File.dirname(__FILE__), "fetcher", "dangdangbook_fetcher")
+  autoload :JingdongbookFetcher,	 File.join(File.dirname(__FILE__), "fetcher", "jingdongbook_fetcher")
+  autoload :LetaoFetcher,	 File.join(File.dirname(__FILE__), "fetcher", "letao_fetcher")
+  autoload :BinggoFetcher,	 File.join(File.dirname(__FILE__), "fetcher", "binggo_fetcher")
+  autoload :VjiaFetcher,	 				 File.join(File.dirname(__FILE__), "fetcher", "vjia_fetcher")
+  autoload :AmazonFetcher,	 				 File.join(File.dirname(__FILE__), "fetcher", "amazon_fetcher")
+  autoload :TuniuFetcher,	 				 File.join(File.dirname(__FILE__), "fetcher", "tuniu_fetcher")
+  autoload :AmazonbookFetcher,	 				 File.join(File.dirname(__FILE__), "fetcher", "amazonbook_fetcher")
+  autoload :MengbashaFetcher,	 				 File.join(File.dirname(__FILE__), "fetcher", "mengbasha_fetcher")
+  autoload :Pb89Fetcher,          File.join(File.dirname(__FILE__), "fetcher", "pb89_fetcher")
+  autoload :WinxuanFetcher,          File.join(File.dirname(__FILE__), "fetcher", "winxuan_fetcher")
+  autoload :OkbuyFetcher,          File.join(File.dirname(__FILE__), "fetcher", "okbuy_fetcher")
+  autoload :HcyxbookFetcher,          File.join(File.dirname(__FILE__), "fetcher", "hcyxbook_fetcher")
+  autoload :TuniuhotelFetcher,	 				 File.join(File.dirname(__FILE__), "fetcher", "tuniuhotel_fetcher")
+  autoload :TuniutourFetcher,	 				 File.join(File.dirname(__FILE__), "fetcher", "tuniutour_fetcher")
+<<<<<<< HEAD
+  autoload :MissleleFetcher,	 				 File.join(File.dirname(__FILE__), "fetcher", "misslele_fetcher")
+=======
+  autoload :TuniumenpiaoFetcher,	 				 File.join(File.dirname(__FILE__), "fetcher", "tuniumenpiao_fetcher")
+  autoload :TuniuyoulunFetcher,	 				 File.join(File.dirname(__FILE__), "fetcher", "tuniuyoulun_fetcher")
+>>>>>>> 5b957aca9baa9b17d4f390890c9770921c7eb637
+end

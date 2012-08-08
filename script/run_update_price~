@@ -1,0 +1,111 @@
+#!/usr/bin/env ruby -EUTF-8
+# encoding: utf-8
+require 'open-uri'
+require 'nokogiri'
+require 'timeout'
+require 'rtesseract'
+require File.expand_path(File.dirname(__FILE__) + "/../utils/utils")
+require File.expand_path(File.dirname(__FILE__) + "/../utils/optparse")
+require File.expand_path(File.dirname(__FILE__) + "/../logger")
+require File.expand_path(File.dirname(__FILE__) + "/../downloader")
+
+Spider::Utils.load_mongo(SpiderOptions[:environment])
+Spider::Utils.load_models
+Spider::Utils.load_digger
+Spider::Utils.load_downloader
+
+include Spider::Logger
+
+CurrentDownloader = "Spider::#{SpiderOptions[:downloader].capitalize}Downloader".constantize
+
+def start_updat(page)
+  pageids = [ BSON::ObjectId("4e93bf6c1d41c874f30005a1"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005a2"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005a3"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005a4"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005a5"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005a6"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005a7"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005a8"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005a9"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005aa"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005ab"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005ac"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005ad"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005ae"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005af"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005b0"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005b1"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005b2"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005b3"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005b4"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005b5"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005b6"),
+              BSON::ObjectId("4e93bf6c1d41c874f30005b7")
+]
+
+  doc = Nokogiri::HTML(open(page.url).read.encode("UTF-8",  :undef => :replace, :replace => "?", :invalid => :replace))
+ 
+   
+   puts "page url equal"+page.url
+
+   if SpiderOptions[:name]=="suning"
+   base_url = "http://www.suning.com"
+   puts doc.search("div#product_container li").size
+    if  doc.search("div#product_container li").size == 0
+    puts "zero length"
+    puts "really zero zero length length????"
+    end
+      doc.search("div#product_container li").each do |per_product|
+       puts per_product.css(".pro_img a")[0]
+       puts per_product.css(".pro_img a")[0]["href"]
+       url = base_url + per_product.css(".pro_img a")[0]["href"]
+       price = per_product.css(".pro_price em").text
+       puts url
+       puts price
+       puts "oooooookkkkkk"
+      product_url = ProductUrl.where(:url => url, :kind => SpiderOptions[:name]).first
+      product = Product.where(:product_url_id =>product_url.id).first if product_url
+      if product
+        if price.to_f > 0
+       product.update_attributes!(:price =>price) 
+       puts "successfully updated product price"
+       puts "88888888888888888888888888888888888"
+         else
+            puts "price is null???????"
+          end
+      else
+         puts "product does not exist!!!!"
+       end
+      end
+
+  puts "Successfully updated page products prices" 
+   elsif SpiderOptions[:name]=="newegg"
+     doc.css("#itemGrid1 div.itemCell").each do |per_product|
+        url = per_product.css("dt/a")[0]["href"]
+       price = per_product.css("strong.price").text.gsub("￥","") 
+       puts url
+       puts price
+
+      product_url = ProductUrl.where(:url => url, :kind => SpiderOptions[:name]).first
+      product = Product.where(:product_url_id =>product_url.id).first if product_url
+       if product
+          if price.to_f > 0
+            product.update_attributes!(:price =>price.to_f) 
+            puts "successfully updated product price"
+
+          else
+            puts "price is null???????"
+          end
+       else
+         puts "product does not exist!!!!"
+       end
+      end
+
+   end
+
+end
+#.where(:_id.in=>pageids)
+pages = Page.from_kind(SpiderOptions[:name]).where(:_id.in=>pageids).limit(SpiderOptions[:number])
+downloader = CurrentDownloader.new(pages)
+downloader.run{|page| start_updat(page)}

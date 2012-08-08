@@ -1,0 +1,1223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+<title>出错啦！</title>
+<link href="http://s.51mdq.com/css/homestyle.css" rel="stylesheet" type="text/css" />
+<link href="http://s.51mdq.com/css/Chrt.css" rel="stylesheet" type="text/css" />
+<link href="http://s.51mdq.com/css/ShowAll.css" rel="stylesheet" type="text/css" />
+<link href="http://s.51mdq.com/css/ListIndex.css" rel="stylesheet" type="text/css" />
+<script type='text/javascript' src='http://s.51mdq.com/js/jquery-1.4.2.min.js'></script>
+    <script type="text/javascript" src="http://s.51mdq.com/js/201107/header.js?a=1314946818" ></script>
+<script  type="text/javascript">
+var _bdhm_top = 0;
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+var _bdhm_tim = new Image(1,1);
+_bdhm_tim.id = "bdhmPerimg";
+_bdhm_tim.src = _bdhmProtocol + "hm.baidu.com/_tt.gif?si=8ea65e42c8f38c7b543a64654cf44e02&rnd=" + Math.round(Math.random()*2147483647);
+_bdhm_tim.onload=function(){_bdhm_top = 1;}
+</script>
+    <link rel="stylesheet" href="http://s.51mdq.com/css/201107/base.css?t=1323416866" />
+    <link rel="stylesheet" href="http://s.51mdq.com/css/201107/coo8.css?t=1323766566" />
+   <style type="text/css">body{text-align:center;font-family:\5B8B\4F53,Arial Narrow,arial,serif;}strong{font-weight:700;}th{font-weight:bolder;text-align:center;}table{border-collapse:separate;border-spacing:1px;}.menuBar{width: 960px;text-algin:left;}.header,.footer{width: 980px;text-align:left;}.footer{clear:both;padding-top:10px;}.footerNav .footerItems{width: 120px;padding-right: 20px;}.hotSrch{width: 235px;}</style>
+
+<script type="text/javascript">
+ var t = 5;
+ function fun(){
+	var time = document.getElementById("time");
+   	t--;
+   	time.innerHTML = t;
+  	if(t<=0){
+   		location.href = "/";
+   		clearInterval(inter);
+  	}
+ }
+ var inter = setInterval("fun()",1000);
+</script>
+
+</head>
+
+<body>
+<!-- 页头 -->
+<div class="menuBarWrap">
+	<div class="menuBar">
+	    <p class="LoginInfo" id="loginfo"><span class="welcome">您好，欢迎光临库巴购物网！</span><a rel="nofollow" class="login" href="javascript:login();">请登录</a><a rel="nofollow" class="register" style="color:#EA5504;" href="javascript:regist();">免费注册</a></p>
+	    <script type="text/javascript">(function(){$$();})();</script>
+	    <ul class="QuickMenu">
+	        <li><a rel="nofollow" href="http://my.coo8.com/UCenter/OrderList.aspx">我的订单</a></li>
+	        <li><a rel="nofollow" href="http://my.coo8.com/UCenter/MyCenter.aspx">我的库巴</a></li>
+	        <li><a target="_blank" href="http://www.coo8.com/new/news/">资讯</a></li>
+	        <li><a target="_blank" href="http://forum.coo8.com/">社区</a></li>
+	        <li><a target="_blank" href="http://www.coo8.com/actnew/PT2011120503/index.html" style="color:#EA5504;">移动客户端</a></li>
+			<li><a target="_blank" href="http://my.coo8.com/UCenter/CorpBuyApply.aspx">企业客户</a></li>
+	        <li><a target="_blank" href="http://www.coo8.com/help/">帮助中心</a></li>
+	        <li class="last"><a rel="nofollow" style="color:#EA5504;" href="http://my.coo8.com/UCenter/ComplaintList.aspx" target="_blank">投诉中心</a></li>
+	        <!--<li class="last"><iframe width="63" height="24" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" scrolling="no" frameborder="No" border="0" src="http://widget.weibo.com/relationship/followbutton.php?width=63&height=24&uid=1708884493&style=1&btn=red&dpc=1"></iframe></li>-->
+	    </ul>
+	</div>
+</div> 
+     <div class="header">
+	<div class="logo"><a href="http://www.coo8.com/"><img src="http://p1.51mdq.com/images/logo.png?t=1" alt="库巴购物网" /></a></div>
+	<ul class="mainNav">
+	    <li class="cur" id="h_index"><a href="http://www.coo8.com/"><span>首页</span></a></li>
+        <li id="h_qiang"><a href="http://qiang.coo8.com/" target="_blank"><span>抢购</span></a></li>
+	    <li id="h_kill"><a href="http://k.coo8.com/" target="_blank"><span>秒杀</span></a></li>
+	    <li id="h_tuan"><a href="http://tuan.coo8.com/" target="_blank"><span>团购</span></a></li>
+        <li id="h_wei"><a href="http://xia.coo8.com/" target="_blank"><span>微瑕客</span></a></li>
+	</ul>
+	<script type="text/javascript">
+	var current_head = current_head || "h_index";
+	(function(){
+		$("#" + current_head).addClass("cur").siblings().removeClass("cur");
+	})();</script>
+	<div class="serviceNum"><img src="http://p2.51mdq.com/images/201107/servicenum.png" alt="服务热线" /></div>
+	<div class="srchPanel">
+		<div id="AllCategories" class="AllCategories">
+		    <div class="hd"><a href="http://www.coo8.com/allcatalog/">全部商品分类<b class="micon"></b></a></div>
+		    <div class="bd">
+		    </div>
+		</div>
+            <div class="srchBx">
+                <fieldset>
+                    <legend>搜索</legend>
+                    <div class="txtSrchWrap">
+                    	<label for="s"><input type="text" name="s" class="txtSrch" id="searchKeywords" autocomplete="off"/></label>
+                    	<ol class="suggestContent" id="suggestionDiv" style="display:none;"></ol>
+                    </div>
+                    <input type="button" value="搜索" class="btnSrch"  id="sumitButton"/>
+                </fieldset>
+            </div>
+            <dl class="hotSrch" id="hotSearch"></dl>
+            <div id="myCart" class="myCart">
+                <div class="hd">
+                    <div class="tip"><a href="http://buy.coo8.com/cart/shoppingcart/queryshoppingcart.action">购物车有<strong id="cart_count">0</strong>件<b class="micon"></b></a></div><div class="checkout"><a href="http://buy.coo8.com/cart/shoppingcart/queryshoppingcart.action">去结算</a></div>
+                </div>
+                <div class="bd">
+                </div>
+            </div>
+        </div>
+    </div>	
+<div class="Body">
+<div class="WroTop">
+	<div class="WroLeft"><img src="http://p1.51mdq.com/images/404.gif" /></div>
+	<div class="WroRig">
+		<ul><li class="f18px fB">抱歉，商品或页面没有找到！</li></ul>
+		<ul>
+			<li class="f14px">请稍后再试或联系客服：<span class="fB">400-888-0909</span></li>
+			<li class="f14px">将在<span class="cRed fB" id="time">5</span>秒后跳转至<a href="/" class="cBlue">库巴首页</a>，请稍后。。。</li>
+		</ul>
+	</div>
+</div>
+<!-- 本周推荐 -->
+<!--
+<div id="ChrtTop"><div class="Left">本周推荐</div></div>
+<div class="Bd">
+  <div class="PicBox">
+    <div class="Pic"><img src="http://p1.51mdq.com/images/1.jpg" /></div>
+    <div class="Text"><a href="#" target="_blank">索尼32英寸液晶电视KLV-32BX300 <span>超级明星畅销机型,卧式豪华首选,最新特价开始</span></a></div>
+    <div class="Chat"><span class="f14px cRed">￥</span><span class="cRed">2049</span></div>
+  </div>
+  <div class="PicBox">
+    <div class="Pic"><img src="http://p1.51mdq.com/images/2.jpg" /></div>
+    <div class="Text"><a href="#" target="_blank">小天鹅5.5千克滚筒洗衣机XQG55-1006E <span>纤薄有型,实用大气,95℃高温抑菌!</span></a></div>
+    <div class="Chat"><span class="f14px cRed">￥</span><span class="cRed">2049</span></div>
+  </div>
+  <div class="PicBox">
+    <div class="Pic"><img src="http://p1.51mdq.com/images/3.jpg" /></div>
+    <div class="Text"><a href="#" target="_blank">海尔电热水器ES50H-C1(E) <span>高性价比,三层保护,劲爆低价促销!</span></a></div>
+    <div class="Chat"><span class="f14px cRed">￥</span><span class="cRed">2049</span></div>
+  </div>
+  <div class="PicBox">
+    <div class="Pic"><img src="http://p1.51mdq.com/images/4.jpg" /></div>
+    <div class="Text"><a href="#" target="_blank">夏普40英寸液晶电视LCD-40GE220A <span>全高清,钛金属色FULLHD液晶屏!</span></a></div>
+    <div class="Chat"><span class="f14px cRed">￥</span><span class="cRed">2049</span></div>
+  </div>
+  <div class="clear"></div>
+  <div class="H10 Dotte"></div>
+  <div class="H10"></div>
+  <div class="PicBox">
+    <div class="Pic"><img src="http://p1.51mdq.com/images/2.jpg" /></div>
+    <div class="Text"><a href="#" target="_blank">小天鹅5.5千克滚筒洗衣机XQG55-1006E <span>纤薄有型,实用大气,95℃高温抑菌!</span></a></div>
+    <div class="Chat"><span class="f14px cRed">￥</span><span class="cRed">2049</span></div>
+  </div>
+  <div class="PicBox">
+    <div class="Pic"><img src="http://p1.51mdq.com/images/2.jpg" /></div>
+    <div class="Text"><a href="#" target="_blank">小天鹅5.5千克滚筒洗衣机XQG55-1006E <span>纤薄有型,实用大气,95℃高温抑菌!</span></a></div>
+    <div class="Chat"><span class="f14px cRed">￥</span><span class="cRed">2049</span></div>
+  </div>
+  <div class="PicBox">
+    <div class="Pic"><img src="http://p1.51mdq.com/images/2.jpg" /></div>
+    <div class="Text"><a href="#" target="_blank">小天鹅5.5千克滚筒洗衣机XQG55-1006E <span>纤薄有型,实用大气,95℃高温抑菌!</span></a></div>
+    <div class="Chat"><span class="f14px cRed">￥</span><span class="cRed">2049</span></div>
+  </div>
+  <div class="PicBox">
+    <div class="Pic"><img src="http://p1.51mdq.com/images/2.jpg" /></div>
+    <div class="Text"><a href="#" target="_blank">小天鹅5.5千克滚筒洗衣机XQG55-1006E <span>纤薄有型,实用大气,95℃高温抑菌!</span></a></div>
+    <div class="Chat"><span class="f14px cRed">￥</span><span class="cRed">2049</span></div>
+  </div>
+  <div class="clear"></div>
+</div>
+  -->
+<!-- 本周推荐 -->
+
+</div>
+
+<!-- 页尾 -->
+<textarea id="allCatalogBlockArea" style="display:none;">
+<div class="rcTop"></div>
+
+<div class="items djd">
+    <h2><a href="http://www.coo8.com/dajiadian/"><b class="extra"></b>大家电</a></h2>
+    <div class="subItems">
+        <div class="hotPanel">
+            <dl class="hotBrand clearfix">
+                <dt>推荐品牌</dt>
+                <dd><a title="海尔" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=海尔">海尔</a></dd>
+				<dd><a title="格力" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=格力">格力</a></dd>
+				<dd><a title="美的" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=美的">美的</a></dd>
+				<dd><a title="志高" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=志高">志高</a></dd>
+				<dd><a title="格兰仕" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=格兰仕">格兰仕</a></dd>
+				<dd><a title="奥克斯" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=奥克斯">奥克斯</a></dd>
+				<dd><a title="长虹" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=长虹">长虹</a></dd>
+				<dd><a title="夏普" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=夏普">夏普</a></dd>
+				<dd><a title="三星" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=三星">三星</a></dd>
+				<dd><a title="索尼" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=索尼">索尼</a></dd>
+				<dd><a title="海信" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=海信">海信</a></dd>
+				<dd><a title="创维" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=创维">创维</a></dd>
+				<dd><a title="松下" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=松下">松下</a></dd>
+				<dd><a title="LG" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=LG">LG</a></dd>
+            </dl>
+            <dl class="hotActnew clearfix">
+
+
+ <dt>促销活动</dt>
+  <dd><a href="http://www.coo8.com/actnew/1032.html" title="全场家电双重补贴">全场家电双重补贴</a></dd>
+              
+
+
+<dd><a href="http://www.coo8.com/actnew/PT2011120104/index.html" title="影音岁末特价！">影音岁末特价！</a></dd> 
+
+
+                            </dl>
+        </div>
+        
+        <div class="itemsPanel">
+            <dl class="brands clearfix">
+                <dt>大家电</dt>
+				<dd><a title="平板电视" href="http://www.coo8.com/products/230-0-0-0-0.html">平板电视</a></dd>
+				<dd><a title="洗衣/干衣机" href="http://www.coo8.com/products/260-0-0-0-0.html">洗衣/干衣机</a></dd>
+				<dd><a title="冰箱" href="http://www.coo8.com/products/250-0-0-0-0.html">冰箱</a></dd>
+                <dd><a title="空调" href="http://www.coo8.com/products/280-0-0-0-0.html">空调</a></dd>
+				<dd><a title="冷柜" href="http://www.coo8.com/products/251-0-0-0-0.html">冰柜/酒柜</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>家庭影院</dt>
+				<dd><a title="家庭影院" href="http://www.coo8.com/products/201-0-0-0-0.html">家庭影院</a></dd>
+				<dd><a title="台式音响" href="http://www.coo8.com/products/202-0-0-0-0.html">台式音响</a></dd>
+				<dd><a title="DVD碟机" href="http://www.coo8.com/products/204-0-0-0-0.html">DVD碟机</a></dd>
+				<dd><a title="网络播放机" href="http://www.coo8.com/products/206-0-0-0-0.html">网络播放机</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>家电配件</dt>
+                <dd><a title="家电配件" href="http://www.coo8.com/products/231-0-0-0-0.html">家电配件</a></dd>
+                <dd><a title="电视配件" href="http://www.coo8.com/products/1033-0-0-0-0.html">电视配件</a></dd> 
+                <dd><a title="冰洗配件" href="http://www.coo8.com/products/1034-0-0-0-0.html">冰洗配件</a></dd>
+            </dl>
+        </div>
+        
+    </div>
+</div>
+
+<div class="items cw">
+    <h2><a href="http://www.coo8.com/chuweidianqi/"><b class="extra"></b>厨卫电器</a></h2>
+    <div class="subItems">
+        <div class="hotPanel">
+            <dl class="hotBrand clearfix">
+                <dt>推荐品牌</dt>
+                <dd><a title="灿坤" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=灿坤">灿坤</a></dd>
+				<dd><a title="九阳" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=九阳">九阳</a></dd>
+				<dd><a title="格兰仕" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=格兰仕">格兰仕</a></dd>
+				<dd><a title="苏泊尔" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=苏泊尔">苏泊尔</a></dd>
+				<dd><a title="松下" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=松下">松下</a></dd>
+				<dd><a title="SKG" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=SKG">SKG</a></dd>
+				<dd><a title="阿里斯顿" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=阿里斯顿">阿里斯顿</a></dd>
+				<dd><a title="奔腾" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=奔腾">奔腾</a></dd>
+				<dd><a title="老板" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=老板">老板</a></dd>
+				<dd><a title="美的" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=美的">美的</a></dd>
+				<dd><a title="海尔" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=海尔">海尔</a></dd>
+				<dd><a title="西门子" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=西门子">西门子</a></dd>
+				<dd><a title="东芝" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=东芝">东芝</a></dd>
+				<dd><a title="飞利浦" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=飞利浦">飞利浦</a></dd>
+				<dd><a title="林内" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=林内">林内</a></dd>
+				<dd><a title="帅康" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=帅康">帅康</a></dd>
+				<dd><a title="万和" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=万和">万和</a></dd>
+				<dd><a title="康宝" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=康宝">康宝</a></dd>
+            </dl>
+			<dl class="hotActnew clearfix">
+                <dt>促销活动</dt>
+                <dd><a href="http://www.coo8.com/actnew/PT2011120801/index.html" title="厨卫暖冬盘点啦！">厨卫暖冬盘点啦！</a></dd> 
+<dd><a href="http://www.coo8.com/actnew/PT2011120604/index.html" title="厨房小电大力促！">厨房小电大力促！</a></dd> 
+
+
+
+
+            </dl>
+        </div>
+        
+        <div class="itemsPanel">
+            <dl class="brands clearfix">
+                <dt>厨卫大电</dt>
+                <dd><a title="油烟机" href="http://www.coo8.com/products/353-0-0-0-0.html">油烟机</a></dd>
+				<dd><a title="灶具" href="http://www.coo8.com/products/352-0-0-0-0.html">灶具</a></dd>
+                <dd><a title="热水器" href="http://www.coo8.com/products/350-0-0-0-0.html">热水器</a></dd>
+                <dd><a title="浴霸/排气扇" href="http://www.coo8.com/products/351-0-0-0-0.html">浴霸/排气扇</a></dd>
+				<dd><a title="消毒柜" href="http://www.coo8.com/products/358-0-0-0-0.html">消毒柜</a></dd>
+				<dd><a title="洗碗机" href="http://www.coo8.com/products/381-0-0-0-0-0.html">洗碗机</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>厨房小电</dt>
+                <dd><a title="微波炉" href="http://www.coo8.com/products/357-0-0-0-0.html">微波炉</a></dd>
+				<dd><a title="豆浆机" href="http://www.coo8.com/products/354-0-0-0-0.html">豆浆机</a></dd> 
+				<dd><a title="电压力锅" href="http://www.coo8.com/products/368-0-0-0-0.html">电压力锅</a></dd>
+				<dd><a title="电磁炉" href="http://www.coo8.com/products/355-0-0-0-0.html">电磁炉</a></dd>
+				<dd><a title="电饭煲/西施煲" href="http://www.coo8.com/products/356-0-0-0-0.html">电饭煲/西施煲</a></dd>
+				<dd><a title="电烤箱/烧烤炉" href="http://www.coo8.com/products/359-0-0-0-0.html">电烤箱/烧烤炉</a></dd>
+				<dd><a title="电水煲/电水壶" href="http://www.coo8.com/products/360-0-0-0-0.html">电水煲/电水壶</a></dd>
+				<dd><a title="榨汁/料理机" href="http://www.coo8.com/products/365-0-0-0-0.html">榨汁/料理机</a></dd> 
+				<dd><a title="电饼铛/煎烤机" href="http://www.coo8.com/products/363-0-0-0-0.html">电饼铛/煎烤机</a></dd> 
+				<dd><a title="多士炉/面包机" href="http://www.coo8.com/products/374-0-0-0-0.html">多士炉/面包机</a></dd> 
+ 				<dd><a title="咖啡壶/咖啡机" href="http://www.coo8.com/products/714-0-0-0-0.html">咖啡壶/咖啡机</a></dd>
+				<dd><a title="打蛋器/煮蛋器" href="http://www.coo8.com/products/681-0-0-0-0.html">打蛋器/煮蛋器</a></dd>
+				<dd><a title="电蒸锅/炖锅" href="http://www.coo8.com/products/379-0-0-0-0.html">电蒸锅/炖锅</a></dd> 
+				<dd><a title="酸奶机" href="http://www.coo8.com/products/373-0-0-0-0.html">酸奶机</a></dd> 				 
+ 
+             </dl>
+			<dl class="brands clearfix">
+                <dt>净水设备</dt>
+                <dd><a href="http://www.coo8.com/products/715-0-0-0-0.html"title="软水机">软水机</a></dd>
+				<dd><a href="http://www.coo8.com/products/708-0-0-0-0.html"title="净水机">净水机</a></dd>
+				<dd><a href="http://www.coo8.com/products/710-0-0-0-0.html"title="管线机">管线机</a></dd>
+				<dd><a href="http://www.coo8.com/products/716-0-0-0-0.html"title="前置过滤器">前置过滤器</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+            </dl>
+        </div>
+    </div>
+</div>
+
+<div class="items sh">
+    <h2><a href="http://www.coo8.com/shenghuodianqi/"><b class="extra"></b>生活电器</a></h2>
+    <div class="subItems">
+        <div class="hotPanel">
+            <dl class="hotBrand clearfix">
+                <dt>推荐品牌</dt>
+                <dd><a title="格力" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=格力">格力</a></dd>
+				<dd><a title="美的" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=美的">美的</a></dd>
+				<dd><a title="飞利浦" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=飞利浦">飞利浦</a></dd>
+				<dd><a title="安吉尔" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=安吉尔">安吉尔</a></dd>
+				<dd><a title="夏普" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=夏普">夏普</a></dd>
+				<dd><a title="亚都" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=亚都">亚都</a></dd>
+				<dd><a title="联创" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=联创">联创</a></dd>
+				<dd><a title="泰昌" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=泰昌">泰昌</a></dd>
+				<dd><a title="伊莱克斯" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=伊莱克斯">伊莱克斯</a></dd>
+				<dd><a title="海尔" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=海尔">海尔</a></dd>
+            </dl>
+			<dl class="hotActnew clearfix">
+                <dt>促销活动</dt>
+                <dd><a href="http://www.coo8.com/actnew/PT2011120606/index.html" title="空气净化器专场">空气净化器专场</a></dd> 
+<dd><a href="http://www.coo8.com/actnew/1081.html" title="飞利浦两大经典">飞利浦两大经典</a></dd> 
+            </dl>
+        </div>
+        
+        <div class="itemsPanel">
+            <dl class="brands clearfix">
+                <dt>环境电器</dt>
+				<dd><a title="取暖器" href="http://www.coo8.com/products/269-0-0-0-0.html">取暖器</a></dd>
+				<dd><a title="加湿器" href="http://www.coo8.com/products/268-0-0-0-0.html">加湿器</a></dd>
+				<dd><a title="饮水机" href="http://www.coo8.com/products/262-0-0-0-0.html">饮水机</a></dd>
+				<dd><a title="净水桶" href="http://www.coo8.com/products/685-0-0-0-0.html">净水桶</a></dd>
+				<dd><a title="净化器" href="http://www.coo8.com/products/256-0-0-0-0.html">净化器</a></dd>
+				<dd><a title="吸尘器" href="http://www.coo8.com/products/267-0-0-0-0.html">吸尘器</a></dd>
+				<dd><a title="除湿机" href="http://www.coo8.com/products/254-0-0-0-0.html">除湿机</a></dd>
+				<dd><a title="电风扇" href="http://www.coo8.com/products/257-0-0-0-0.html">电风扇</a></dd>
+				<dd><a title="冷风机" href="http://www.coo8.com/products/255-0-0-0-0.html">冷风机</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>个护保健</dt>
+                <dd><a title="足浴盆" href="http://www.coo8.com/products/253-0-0-0-0.html">足浴盆</a></dd>
+				<dd><a title="电吹风" href="http://www.coo8.com/products/265-0-0-0-0.html">电吹风</a></dd>
+                <dd><a title="按摩器" href="http://www.coo8.com/products/264-0-0-0-0.html">按摩器</a></dd>
+                <dd><a title="剃须刀" href="http://www.coo8.com/products/266-0-0-0-0.html">剃须刀</a></dd>
+				<dd><a href="http://www.coo8.com/products/688-0-0-0-0.html"title="美发器">美发器</a></dd>
+				<dd><a href="http://www.coo8.com/products/689-0-0-0-0.html"title="美容器">美容器</a></dd>
+                <dd><a title="电子血压计" href="http://www.coo8.com/products/693-0-0-0-0.html">电子血压计</a></dd>
+                <dd><a title="脂肪测量仪" href="http://www.coo8.com/products/695-0-0-0-0.html">脂肪测量仪</a></dd>
+                <dd><a title="健康用品" href="http://www.coo8.com/products/906-0-0-0-0.html">健康用品</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>衣物护理</dt>
+				<dd><a title="电熨斗" href="http://www.coo8.com/products/258-0-0-0-0.html">电熨斗</a></dd>
+                <dd><a title="挂烫机" href="http://www.coo8.com/products/259-0-0-0-0.html">挂烫机</a></dd>
+				<dd><a title="缝纫机" href="http://www.coo8.com/products/869-0-0-0-0.html">缝纫机</a></dd>
+            </dl>	
+			<dl class="brands clearfix">
+                <dt>创意生活</dt>
+                <dd><a title="创意电器" href="http://www.coo8.com/products/323-0-0-0-0.html">创意电器</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<div class="items sj">
+    <h2><a href="http://www.coo8.com/shoujishuma/"><b class="extra"></b>手机数码</a></h2>
+    <div class="subItems">
+        <div class="hotPanel">
+            <dl class="hotBrand clearfix">
+                <dt>推荐品牌</dt>
+                <dd><a title="诺基亚" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=诺基亚">诺基亚</a></dd>
+				<dd><a title="HTC" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=HTC">HTC</a></dd>
+				<dd><a title="联想" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=联想">联想</a></dd>
+				<dd><a title="夏普" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=夏普">夏普</a></dd>
+
+				<dd><a title="佳能" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=佳能">佳能</a></dd>
+				<dd><a title="富士" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=富士">富士</a></dd>
+				<dd><a title="柯达" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=柯达">柯达</a></dd>
+				<dd><a title="索尼" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=索尼">索尼</a></dd>
+				<dd><a title="松下" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=松下">松下</a></dd>
+				<dd><a title="三星" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=三星">三星</a></dd>
+				<dd><a title="摩托罗拉" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=摩托罗拉">摩托罗拉</a></dd>
+				<dd><a title="苹果" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=苹果">苹果</a></dd>
+				<dd><a title="迪士尼" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=迪士尼">迪士尼</a></dd>
+				<dd><a title="飞利浦" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=飞利浦">飞利浦</a></dd>
+				<dd><a title="尼康" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=尼康">尼康</a></dd>
+				<dd><a title="卡西欧" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=卡西欧">卡西欧</a></dd>
+				<dd><a title="奥林巴斯" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=奥林巴斯">奥林巴斯</a></dd>
+				<dd><a title="理光" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=理光"> 理光</a></dd>
+            </dl>
+			<dl class="hotActnew clearfix">
+                <dt>促销活动</dt>
+               
+<dd><a href="http://www.coo8.com/actnew/1077.html" title="手机双娇，特价+买赠
+">手机双娇，特价+买赠
+</a></dd>              
+
+<dd><a href="http://www.coo8.com/actnew/PT2011121202/index.html" title="数码优惠有“机”可乘
+">数码优惠有“机”可乘</a></dd>
+            </dl>
+        </div>
+        
+        <div class="itemsPanel">
+            <dl class="brands clearfix">
+                <dt>手机通信</dt>
+				<dd><a title="手机"href="http://www.coo8.com/products/290-0-0-0-0.html">手机</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>手机配件</dt>
+                <dd><a title="电池" href="http://www.coo8.com/products/291-0-0-0-0.html">电池</a></dd>
+				<dd><a title="充电器" href="http://www.coo8.com/products/294-0-0-0-0.html">充电器</a></dd>
+				<dd><a title="存储卡" href="http://www.coo8.com/products/295-0-0-0-0.html">存储卡</a></dd>
+				<dd><a title="手机耳机" href="http://www.coo8.com/products/296-0-0-0-0.html">手机耳机</a></dd>
+				<dd><a title="手机保护套" href="http://www.coo8.com/products/942-0-0-0-0.html">手机保护套</a></dd>
+				<dd><a title="手机贴膜" href="http://www.coo8.com/products/943-0-0-0-0.html">手机贴膜</a></dd>
+				<dd><a title="其它配件" href="http://www.coo8.com/products/298-0-0-0-0-0.html">其它配件</a></dd>
+            </dl>			
+	  <dl class="brands clearfix">
+                <dt>相机</dt>
+                <dd><a title="便携相机" href="http://www.coo8.com/products/470-0-0-0-0.html">便携相机</a></dd>
+				<dd><a title="单反相机" href="http://www.coo8.com/products/472-0-0-0-0.html">单反相机</a></dd>
+				<dd><a title="单电相机" href="http://www.coo8.com/products/473-0-0-0-0.html">单电相机</a></dd>
+				<dd><a title="一次成像相机" href="http://www.coo8.com/products/1032-0-0-0-0.html">一次成像相机</a></dd>
+            </dl>	
+	       <dl class="brands clearfix">
+                <dt>摄像机</dt>
+				<dd><a title="数码摄像机" href="http://www.coo8.com/products/471-0-0-0-0.html">数码摄像机</a></dd>
+            </dl>
+	<dl class="brands clearfix">
+                <dt>数码电子</dt>
+				<dd><a title="数码相框" href="http://www.coo8.com/products/487-0-0-0-0.html">数码相框</a></dd>
+				<dd><a title="MID" href="http://www.coo8.com/products/927-0-0-0-0.html">MID</a></dd>
+				<dd><a title="手持电视" href="http://www.coo8.com/products/490-0-0-0-0.html">手持电视</a></dd>
+				<dd><a title="电子书" href="http://www.coo8.com/products/486-0-0-0-0.html">电子书</a></dd>
+				<dd><a title="电子词典" href="http://www.coo8.com/products/495-0-0-0-0.html">电子词典</a></dd>
+				<dd><a title="电子教育" href="http://www.coo8.com/products/496-0-0-0-0.html">电子教育</a></dd>
+				<dd><a title="录音笔" href="http://www.coo8.com/products/489-0-0-0-0.html">录音笔</a></dd>
+                <dd><a title="MP3/MP4" href="http://www.coo8.com/products/485-0-0-0-0.html">MP3/MP4</a></dd>
+            </dl>
+	<dl class="brands clearfix">
+                <dt>数码配件</dt>
+				<dd><a title="单反镜头" href="http://www.coo8.com/products/474-0-0-0-0.html">单反镜头</a></dd>
+				<dd><a title="滤镜" href="http://www.coo8.com/products/476-0-0-0-0.html">滤镜</a></dd>
+				<dd><a title="闪光灯" href="http://www.coo8.com/products/478-0-0-0-0.html">闪光灯</a></dd>
+				<dd><a title="摄影包" href="http://www.coo8.com/products/479-0-0-0-0.html">摄影包</a></dd>
+				<dd><a title="三脚架/云台" href="http://www.coo8.com/products/480-0-0-0-0.html">三脚架/云台</a></dd>
+				<dd><a title="存储设备" href="http://www.coo8.com/products/477-0-0-0-0.html">存储设备</a></dd>
+				<dd><a title="MP3/MP4配件" href="http://www.coo8.com/products/493-0-0-0-0.html">MP3/MP4配件</a></dd>				<dd><a title="清洁用品" href="http://www.coo8.com/products/481-0-0-0-0.html">清洁用品</a></dd>
+                <dd><a title="电池/充电器" href="http://www.coo8.com/products/475-0-0-0-0.html">电池/充电器</a></dd>
+                <dd><a title="相机实用指南" href="http://www.coo8.com/products/935-0-0-0-0.html">相机实用指南</a></dd>
+                <dd><a title="自拍镜/相纸" href="http://www.coo8.com/products/1043-0-0-0-0.html">自拍镜/相纸</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<div class="items dn">
+    <h2><a href="http://www.coo8.com/diannao/"><b class="extra"></b>电脑、办公</a></h2>
+    <div class="subItems">
+        <div class="hotPanel">
+            <dl class="hotBrand clearfix">
+                <dt>推荐品牌</dt>
+                <dd><a title="ThinkPad" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=ThinkPad">ThinkPad</a></dd>
+				<dd><a title="宏碁" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=宏碁">宏碁</a></dd>
+				<dd><a title="索尼" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=索尼">索尼</a></dd>
+				<dd><a title="富士通" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=富士通">富士通</a></dd>
+				<dd><a title="戴尔" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=戴尔">戴尔</a></dd>
+				<dd><a title="联想" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=联想">联想</a></dd>
+				<dd><a title="微星" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=微星">微星</a></dd>
+				<dd><a title="惠普" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=惠普">惠普</a></dd>
+				<dd><a title="东芝" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=东芝">东芝</a></dd>
+				<dd><a title="三星" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=三星">三星</a></dd>
+            </dl>
+			<dl class="hotActnew clearfix">
+                <dt>促销活动</dt>
+                <dd><a href="http://www.coo8.com/actnew/PT2011120701/index.html#top" title="电脑OA直降最划算">电脑OA直降最划算</a></dd> 
+<dd><a href="http://www.coo8.com/actnew/1057.html" title="OA特惠事半功倍">OA特惠事半功倍</a></dd> 
+            </dl>
+        </div>
+        
+        <div class="itemsPanel">
+            <dl class="brands clearfix">
+                <dt>电脑整机</dt>
+                <dd><a title="笔记本电脑" href="http://www.coo8.com/products/600-0-0-0-0.html">笔记本电脑</a></dd>
+				<dd><a title="上网本" href="http://www.coo8.com/products/602-0-0-0-0.html">上网本</a></dd>
+				<dd><a title="平板电脑" href="http://www.coo8.com/products/483-0-0-0-0.html">平板电脑</a></dd>
+				<dd><a title="台式机" href="http://www.coo8.com/products/755-0-0-0-0.html">台式机</a></dd>
+            </dl>
+			 <dl class="brands clearfix">
+                <dt>整机配件</dt>
+				<dd><a title="笔记本配件" href="http://www.coo8.com/products/603-0-0-0-0.html">笔记本配件</a></dd>
+				<dd><a title="iPad配件" href="http://www.coo8.com/products/484-0-0-0-0.html">iPad配件</a></dd>
+            </dl>
+			 <dl class="brands clearfix">
+                <dt>电脑外设</dt>
+                <dd><a title="鼠标" href="http://www.coo8.com/products/624-0-0-0-0.html">鼠标</a></dd>
+				<dd><a title="键盘" href="http://www.coo8.com/products/625-0-0-0-0.html">键盘</a></dd>
+				<dd><a href="http://www.coo8.com/products/626-0-0-0-0.html"title="U盘">U盘</a></dd>
+				<dd><a title="移动硬盘" href="http://www.coo8.com/products/627-0-0-0-0.html">移动硬盘</a></dd>
+				<dd><a title="音箱" href="http://www.coo8.com/products/630-0-0-0-0.html">音箱</a></dd>
+				<dd><a title="鼠标垫" href="http://www.coo8.com/products/765-0-0-0-0.html">鼠标垫</a></dd>
+				<dd><a title="摄像头" href="http://www.coo8.com/products/628-0-0-0-0.html">摄像头</a></dd>
+				<dd><a title="手写板" href="http://www.coo8.com/products/775-0-0-0-0.html">手写板</a></dd>
+				<dd><a title="耳机/耳麦" href="http://www.coo8.com/products/491-0-0-0-0.html">耳机/耳麦</a></dd>
+				<dd><a title="防护及清洁" href="http://www.coo8.com/products/632-0-0-0-0.html">防护及清洁</a></dd>
+				<dd><a title="游戏设备" href="http://www.coo8.com/products/778-0-0-0-0.html">游戏设备</a></dd>
+            </dl>
+			 <dl class="brands clearfix">
+                <dt>电脑配件</dt>
+                <dd><a title="CPU" href="http://www.coo8.com/products/757-0-0-0-0.html">CPU</a></dd>
+				<dd><a title="主板" href="http://www.coo8.com/products/759-0-0-0-0.html">主板</a></dd>
+				<dd><a title="显卡" href="http://www.coo8.com/products/769-0-0-0-0.html">显卡</a></dd>
+				<dd><a title="硬盘" href="http://www.coo8.com/products/770-0-0-0-0.html">硬盘</a></dd>
+				<dd><a title="内存" href="http://www.coo8.com/products/758-0-0-0-0.html">内存</a></dd>
+				<dd><a title="机箱" href="http://www.coo8.com/products/767-0-0-0-0.html">机箱</a></dd>
+				<dd><a title="电源" href="http://www.coo8.com/products/768-0-0-0-0.html">电源</a></dd>
+				<dd><a title="显示器" href="http://www.coo8.com/products/766-0-0-0-0.html">显示器</a></dd>
+				<dd><a title="光驱/刻录机" href="http://www.coo8.com/products/771-0-0-0-0.html">光驱/刻录机</a></dd>
+
+            </dl>
+			 <dl class="brands clearfix">
+                <dt>网络产品</dt>
+                <dd><a title="路由器" href="http://www.coo8.com/products/635-0-0-0-0.html">路由器</a></dd>
+				<dd><a title="网卡" href="http://www.coo8.com/products/929-0-0-0-0.html">网卡</a></dd>
+				<dd><a title="交换机" href="http://www.coo8.com/products/636-0-0-0-0.html">交换机</a></dd>
+				<dd><a title="3G上网" href="http://www.coo8.com/products/945-0-0-0-0.html">3G上网</a></dd>
+				<dd><a title="网络存储" href="http://www.coo8.com/products/958-0-0-0-0.html">网络存储</a></dd>
+            </dl>
+			 <dl class="brands clearfix">
+                <dt>办公设备</dt>
+                <dd><a title="打印机" href="http://www.coo8.com/products/893-0-0-0-0.html">打印机</a></dd>
+				<dd><a href="http://www.coo8.com/products/605-0-0-0-0.html"title="一体机">一体机</a></dd>
+				<dd><a title="传真机"href="http://www.coo8.com/products/607-0-0-0-0.html">传真机</a></dd>
+				<dd><a title="扫描仪" href="http://www.coo8.com/products/609-0-0-0-0.html">扫描仪</a></dd>
+				<dd><a title="投影机" href="http://www.coo8.com/products/894-0-0-0-0.html">投影机</a></dd>
+				<dd><a title="复合机" href="http://www.coo8.com/products/608-0-0-0-0.html">复合机</a></dd>
+				<dd><a title="显微镜" href="http://www.coo8.com/products/1028-0-0-0-0.html">显微镜</a></dd>
+				<dd><a title="电子白板" href="http://www.coo8.com/products/613-0-0-0-0.html">电子白板</a></dd>
+				<dd><a title="考勤机" href="http://www.coo8.com/products/952-0-0-0-0.html">考勤机</a></dd>
+				<dd><a title="装订机" href="http://www.coo8.com/products/951-0-0-0-0.html">装订机</a></dd>
+				<dd><a title="碎纸机" href="http://www.coo8.com/products/610-0-0-0-0.html">碎纸机</a></dd>
+				<dd><a title="塑封机" href="http://www.coo8.com/products/612-0-0-0-0.html">塑封机</a></dd>
+				<dd><a title="点钞/验钞机" href="http://www.coo8.com/products/969-0-0-0-0.html">点钞/验钞机</a></dd>
+				<dd><a title="投影机配件" href="http://www.coo8.com/products/1002-0-0-0-0.html">投影机配件</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<div class="items hw">
+   <h2><a href="http://www.coo8.com/huwaiyongpin/"><b class="extra"></b>运动户外</a></h2>
+    <div class="subItems">
+        <div class="hotPanel">
+            <dl class="hotBrand clearfix">
+                <dt>推荐品牌</dt>
+<dd><a title="乐斯菲斯" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=The%2520North%2520Face">乐斯菲斯</a></dd>
+<dd><a title="哥伦比亚" href="http://www.coo8.com/interfaces/search/showSearchResult.action?sortBy=0&searchKeywords=哥伦比亚&pageIndex=1">哥伦比亚</a></dd>
+<dd><a title="阿珂姆" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E9%2598%25BF%25E7%258F%2582%25E5%25A7%2586">阿珂姆</a></dd>
+<dd><a title="牧高笛" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=牧高笛">牧高笛</a></dd>
+<dd><a title="海泰客" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E6%25B5%25B7%25E6%25B3%25B0%25E5%25AE%25A2">海泰客</a></dd> 
+<dd><a title="泰尼卡" href="http://www.coo8.com/products/738-2145-0-0-0-0-101101.html">泰尼卡</a></dd>
+<dd><a title="松拓" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E6%259D%25BE%25E6%258B%2593">松拓</a></dd>                
+<dd><a title="维氏军刀" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E7%25BB%25B4%25E6%25B0%258F">维氏军刀</a></dd>
+<dd><a title="Osprey" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=Osprey">Osprey</a></dd>
+<dd><a title="快乐狐狸" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E5%25BF%25AB%25E4%25B9%2590%25E7%258B%2590%25E7%258B%25B8">快乐狐狸</a></dd>
+<dd><a title="耐克"  href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E8%2580%2590%25E5%2585%258B">耐克</a></dd>
+<dd><a title="舒华" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E8%2588%2592%25E5%258D%258E">舒华</a></dd>
+
+
+            </dl>
+			<dl class="hotActnew clearfix">
+ <dt>促销活动</dt>
+   
+<dd><a href="http://www.coo8.com/actnew/PT2011120203/index.html?utm_source=zhanneif4&utm_campaign=PT2011120203" title="户外保暖装备3折起">户外保暖装备3折起</a></dd> 
+
+<dd><a href="http://www.coo8.com/actnew/1108.html?utm_source=zhanneicxhw1&utm_campaign=1108" title="室内运动装备9元起">室内运动装备9元起</a></dd>
+            
+<dd><a href="http://www.coo8.com/actnew/1117.html?utm_source=zhanneicxhw2&utm_campaign=1117" title="品牌三穿冲锋衣469元起">品牌三穿冲锋衣469元起</a></dd>
+
+
+<dd><a href="http://www.coo8.com/actnew/PT2011112502/" title="户外产品全场清仓">户外产品全场清仓</a></dd> 
+
+ 
+                 
+                            </dl>
+        </div>
+        
+        <div class="itemsPanel">
+            <dl class="brands clearfix">
+                <dt>户外服饰</dt>
+                <dd><a title="冲锋衣/裤" href="http://www.coo8.com/products/719-0-0-0-0.html">冲锋衣/裤</a></dd>
+                <dd><a title="户外保暖服装" href="http://www.coo8.com/products/1001-0-0-0-0.html">户外保暖服装</a></dd>
+				<dd><a title="抓绒衣/裤" href="http://www.coo8.com/products/720-0-0-0-0.html">抓绒衣/裤</a></dd>
+				<dd><a title="速干衣/裤" href="http://www.coo8.com/products/721-0-0-0-0.html">速干衣/裤</a></dd>
+				<dd><a title="服饰配件" href="http://www.coo8.com/products/722-0-0-0-0.html">服饰配件</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>户外鞋袜</dt>
+                <dd><a title="登山鞋" href="http://www.coo8.com/products/738-0-0-0-0.html">登山鞋</a></dd>
+				<dd><a title="户外休闲鞋" href="http://www.coo8.com/products/732-0-0-0-0.html">户外休闲鞋</a></dd>
+				<dd><a title="户外功能袜" href="http://www.coo8.com/products/731-0-0-0-0.html">户外功能袜</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>户外包</dt>
+                <dd><a title="登山包/双肩包" href="http://www.coo8.com/products/724-0-0-0-0.html">登山包/双肩包</a></dd>
+		<dd><a title="户外商务包" href="http://www.coo8.com/products/946-0-0-0-0.html">户外商务包</a></dd>
+		<dd><a title="户外功能包" href="http://www.coo8.com/products/725-0-0-0-0.html">户外功能包</a></dd>
+		<dd><a title="腰包/挂包" href="http://www.coo8.com/products/723-0-0-0-0.html">腰包/挂包</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>户外装备</dt>
+                <dd><a title="帐篷" href="http://www.coo8.com/products/726-0-0-0-0.html">帐篷</a></dd>
+				<dd><a title="睡袋" href="http://www.coo8.com/products/727-0-0-0-0.html">睡袋</a></dd>
+				<dd><a title="地席/垫子" href="http://www.coo8.com/products/737-0-0-0-0.html">地席/垫子</a></dd>
+				<dd><a title="户外工具" href="http://www.coo8.com/products/735-0-0-0-0.html">户外工具</a></dd>
+				<dd><a title="望远镜" href="http://www.coo8.com/products/931-0-0-0-0.html">望远镜</a></dd>
+				<dd><a title="户外功能手表" href="http://www.coo8.com/products/867-0-0-0-0.html">户外功能手表</a></dd>
+				<dd><a title="折叠桌椅床" href="http://www.coo8.com/products/749-0-0-0-0.html">折叠桌椅床 </a></dd>
+				<dd><a title="户外水具" href="http://www.coo8.com/products/728-0-0-0-0.html">户外水具</a></dd>
+				<dd><a title="炊具/烧烤用品" href="http://www.coo8.com/products/870-0-0-0-0.html">炊具/烧烤用品</a></dd>
+				<dd><a title="户外照明" href="http://www.coo8.com/products/729-0-0-0-0.html">户外照明</a></dd>
+                                <dd><a title="冰雪运动" href="http://www.coo8.com/products/1018-0-0-0-0.html">冰雪运动</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>运动鞋服</dt>
+                <dd><a title="泳衣" href="http://www.coo8.com/products/897-0-0-0-0.html">泳衣</a></dd>
+                <dd><a title="T恤" href="http://www.coo8.com/products/922-0-0-0-0.html">T恤</a></dd>
+                <dd><a title="运动裤" href="http://www.coo8.com/products/923-0-0-0-0.html">运动裤</a></dd>
+                <dd><a title="运动配饰" href="http://www.coo8.com/products/916-0-0-0-0.html">运动配饰</a></dd>
+                <dd><a title="运动袜" href="http://www.coo8.com/products/913-0-0-0-0.html">运动袜</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>运动装备</dt>
+                <dd><a title="泳具/水上用品" href="http://www.coo8.com/products/898-0-0-0-0.html">泳具/水上用品</a></dd>
+                <dd><a title="瑜珈/形体锻炼" href="http://www.coo8.com/products/899-0-0-0-0.html">瑜珈/形体锻炼</a></dd>
+                <dd><a title="羽毛球用品" href="http://www.coo8.com/products/925-0-0-0-0.html">羽毛球用品</a></dd>
+                <dd><a title="网球用品" href="http://www.coo8.com/products/994-0-0-0-0.html">网球用品</a></dd>
+                <dd><a title="足球" href="http://www.coo8.com/products/915-0-0-0-0.html">足球</a></dd>
+                <dd><a title="篮球" href="http://www.coo8.com/products/914-0-0-0-0.html">篮球</a></dd>
+                <dd><a title="运动护具" href="http://www.coo8.com/products/926-0-0-0-0.html">运动护具</a></dd>
+                <dd><a title="健身器材" href="http://www.coo8.com/products/920-0-0-0-0.html">健身器材</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<div class="items qc">
+    <h2><a href="http://www.coo8.com/qicheyongpin/"><b class="extra"></b>汽车用品</a></h2>
+    <div class="subItems">
+        <div class="hotPanel">
+            <dl class="hotBrand clearfix">
+                <dt>推荐品牌</dt>
+  <dd><a title="博世"
+href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=博世">博世
+</a></dd>
+              
+<dd><a title="霍尼韦尔
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E9%259C%258D%25E5%25B0%25BC%25E9%259F%25A6%25E5%25B0%2594">霍尼韦尔
+</a></dd>
+
+
+<dd><a title="美孚" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=美孚">美孚</a></dd>
+				
+
+<dd><a title="福斯
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E7%25A6%258F%25E6%2596%25AF">福斯
+</a></dd>
+
+
+
+<dd><a title="盖茨
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E7%259B%2596%25E8%258C%25A8">盖茨
+</a></dd>
+
+<dd><a title="安耐驰" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=安耐驰">安耐驰</a></dd>
+
+<dd><a title="龟牌" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=龟牌">龟牌</a></dd>
+
+
+				<dd><a title="3M" href="http://www.coo8.com/interfaces/search/showSearchResult.action?sortBy=0&searchKeywords=3m&catalogId=810&pageIndex=1">3M</a></dd>
+								<dd><a title="城际通
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E5%259F%258E%25E9%2599%2585%25E9%2580%259A">城际通
+</a></dd>
+				<dd><a title="神行者" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=神行者">神行者</a></dd>
+				<dd><a title="风王" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=风王">风王</a></dd>
+				<dd><a title="非常爱车" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=非常爱车">非常爱车</a></dd>
+
+<dd><a title="纽福克斯
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E7%25BA%25BD%25E7%25A6%258F%25E5%2585%258B%25E6%2596%25AF">纽福克斯
+</a></dd>
+
+<dd><a title="铁臂阿童木
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E9%2593%2581%25E8%2587%2582%25E9%2598%25BF%25E7%25AB%25A5%25E6%259C%25A8">铁臂阿童木
+</a></dd>
+<dd><a title="GIGI" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=GIGI">GIGI</a></dd>
+
+<dd><a title="淇淇
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E6%25B7%2587%25E6%25B7%2587">淇淇
+</a></dd>
+
+				<dd><a title="快美特" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=快美特">快美特</a></dd>
+								<dd><a title="威卡司" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=威卡司">威卡司</a></dd>
+
+<dd><a title="香百年
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E9%25A6%2599%25E7%2599%25BE%25E5%25B9%25B4">香百年
+</a></dd>
+<dd><a title="和流香
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E5%2592%258C%25E6%25B5%2581%25E9%25A6%2599">和流香
+</a></dd>
+
+
+				            </dl>
+
+ <dl class="hotActnew clearfix">
+
+
+ <dt>促销活动</dt>
+                <dd><a href="http://www.coo8.com/actnew/1090.html" title="1元秒杀，车品周年庆">1元秒杀，车品周年庆</a></dd> 
+  <dd><a href="http://www.coo8.com/actnew/PT2011112509/index.html
+" title="9元起，冬季保养专题">9元起，冬季保养专题</a></dd> 
+<dd><a href="http://www.coo8.com/actnew/PT2011112705/index.html" title="保驾护航，开车带孩子">保驾护航，开车带孩子</a></dd> 
+<dd><a href="http://www.coo8.com/actnew/PT2011112301/" title="平安香伴，埃迪香水">平安香伴，埃迪香水</a></dd> 
+
+
+
+
+
+
+
+
+
+                            </dl>
+
+			
+        </div>
+        
+        <div class="itemsPanel">
+           <dl class="brands clearfix">
+                <dt>影音导航</dt>
+                <dd><a href="http://www.coo8.com/products/452-0-0-0-0.html"title="GPS导航">GPS导航</a></dd>
+				<dd><a href="http://www.coo8.com/products/858-0-0-0-0.html"title="车载MP3/MP4">车载MP3/MP4</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>车载电器</dt>
+				<dd><a href="http://www.coo8.com/products/854-0-0-0-0.html"title="车载吸尘器">车载吸尘器</a></dd>
+				<dd><a href="http://www.coo8.com/products/855-0-0-0-0.html"title="车载打气泵">车载打气泵</a></dd>
+				<dd><a href="http://www.coo8.com/products/853-0-0-0-0.html"title="电源转换器">电源转换器</a></dd>
+				<dd><a href="http://www.coo8.com/products/848-0-0-0-0.html"title="车载手机充电器">车载手机充电器</a></dd>
+				<dd><a href="http://www.coo8.com/products/852-0-0-0-0.html"title="车载冰箱">车载冰箱</a></dd>
+				<dd><a href="http://www.coo8.com/products/851-0-0-0-0.html"title="车载电热水杯">车载电热水杯</a></dd>
+				<dd><a href="http://www.coo8.com/products/857-0-0-0-0.html"title="车内净化/加湿">车内净化/加湿</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>美容/养护</dt>
+                <dd><a href="http://www.coo8.com/products/809-0-0-0-0.html"title="车蜡">车蜡</a></dd>
+				<dd><a href="http://www.coo8.com/products/810-0-0-0-0.html"title="美容清洁护理">美容清洁护理</a></dd>
+				<dd><a href="http://www.coo8.com/products/821-0-0-0-0.html"title="擦车巾">擦车巾</a></dd>
+				<dd><a href="http://www.coo8.com/products/829-0-0-0-0.html"title="美容工具">美容工具</a></dd>
+				<dd><a href="http://www.coo8.com/products/831-0-0-0-0.html"title="机油/防冻液">机油/防冻液</a></dd>
+				<dd><a href="http://www.coo8.com/products/832-0-0-0-0.html"title="养护/添加剂">养护/添加剂</a></dd>
+				<dd><a href="http://www.coo8.com/products/830-0-0-0-0.html"title="洗车机">洗车机</a></dd>
+				<dd><a href="http://www.coo8.com/products/825-0-0-0-0.html"title="掸子">掸子</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>安全/防盗</dt>
+                <dd><a href="http://www.coo8.com/products/833-0-0-0-0.html"title="方向盘锁">方向盘锁</a></dd>
+				<dd><a href="http://www.coo8.com/products/836-0-0-0-0.html"title="应急工具">应急工具</a></dd>
+				<dd><a href="http://www.coo8.com/products/457-0-0-0-0.html"title="儿童安全座椅">儿童安全座椅</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+               <dt>汽车内饰</dt>
+			   <dd><a href="http://www.coo8.com/products/807-0-0-0-0.html"title="汽车坐垫">汽车坐垫</a></dd>
+			   <dd><a href="http://www.coo8.com/products/808-0-0-0-0.html"title="汽车脚垫">汽车脚垫</a></dd>
+               <dd><a href="http://www.coo8.com/products/782-0-0-0-0.html"title="颈枕/腰靠">颈枕/腰靠</a></dd>				       
+			   <dd><a href="http://www.coo8.com/products/791-0-0-0-0.html"title="收纳箱/置物桶">收纳箱/置物桶</a></dd>
+			   <dd><a href="http://www.coo8.com/products/794-0-0-0-0.html"title="遮阳板/CD袋">遮阳板/CD袋</a></dd>
+			   <dd><a href="http://www.coo8.com/products/887-0-0-0-0.html"title="手刹/排档套">手刹/排档套</a></dd>
+			   <dd><a href="http://www.coo8.com/products/790-0-0-0-0.html"title="方向盘套">方向盘套</a></dd>
+			   <dd><a href="http://www.coo8.com/products/786-0-0-0-0.html"title="安全带护套">安全带护套</a></dd>
+			   <dd><a href="http://www.coo8.com/products/801-0-0-0-0.html"title="指南针/温度计">指南针/温度计</a></dd>
+			   <dd><a href="http://www.coo8.com/products/861-0-0-0-0.html"title="钥匙扣（包）">钥匙扣（包）</a></dd>
+			   <dd><a href="http://www.coo8.com/products/797-0-0-0-0.html"title="纸巾盒">纸巾盒</a></dd>
+			   <dd><a href="http://www.coo8.com/products/799-0-0-0-0.html"title="饮料架/椅背袋">饮料架/椅背袋</a></dd>
+			   <dd><a href="http://www.coo8.com/products/806-0-0-0-0.html"title="防滑垫">防滑垫</a></dd>
+			   <dd><a href="http://www.coo8.com/products/798-0-0-0-0.html"title="出风口置物">出风口置物</a></dd>
+			   <dd><a href="http://www.coo8.com/products/796-0-0-0-0.html"title="其他内饰物件">其他内饰物件</a></dd>
+
+            </dl>
+			<dl class="brands clearfix">
+                <dt>香薰/净化</dt>
+                <dd><a href="http://www.coo8.com/products/779-0-0-0-0.html"title="汽车香水">汽车香水</a></dd>
+				<dd><a href="http://www.coo8.com/products/781-0-0-0-0.html"title="车内异味祛除">车内异味祛除</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>汽车外饰</dt>
+				<dd><a href="http://www.coo8.com/products/840-0-0-0-0.html"title="车衣">车衣</a></dd>
+
+				<dd><a href="http://www.coo8.com/products/843-0-0-0-0.html"title="倒车辅助镜">倒车辅助镜</a></dd>
+				<dd><a href="http://www.coo8.com/products/845-0-0-0-0.html"title="车贴">车贴</a></dd>
+				<dd><a href="http://www.coo8.com/products/846-0-0-0-0.html"title="其他外饰">其他外饰</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>配件</dt>
+				 <dd><a href="http://www.coo8.com/products/841-0-0-0-0.html"title="雨刷">雨刷</a></dd>
+                                 <dd><a href="http://www.coo8.com/products/933-0-0-0-0.html"title="滤清器">滤清器</a></dd>
+				<dd><a href="http://www.coo8.com/products/978-0-0-0-0.html"title="火花塞">火花塞</a></dd>
+                                <dd><a href="http://www.coo8.com/products/1008-0-0-0-0.html"title="喇叭">喇叭</a></dd>
+                                 <dd><a href="http://www.coo8.com/products/1010-0-0-0-0.html"title="皮带">皮带</a></dd>
+                                 <dd><a href="http://www.coo8.com/products/1031-0-0-0-0.html"title="刹车片">刹车片</a></dd>
+	 </dl>
+        </div>
+    </div>
+</div>
+<div class="items jzjc">
+    <h2><a href="http://www.coo8.com/jiazhuangjiancai/"><b class="extra"></b>家装建材</a></h2>
+    <div class="subItems">
+        <div class="hotPanel">
+            <dl class="hotBrand clearfix">
+                <dt>推荐品牌</dt>
+                <dd><a title="松下" href="http://www.coo8.com/interfaces/search/showSearchResult.action?sortBy=0&searchKeywords=松下&catalogId=937&pageIndex=1">松下</a></dd>
+				<dd><a title="TCL" href="http://www.coo8.com/interfaces/search/showSearchResult.action?sortBy=0&searchKeywords=tcl开关&catalogId=936&pageIndex=1">TCL</a></dd>
+				<dd><a title="飞利浦" href="http://www.coo8.com/interfaces/search/showSearchResult.action?sortBy=0&searchKeywords=飞利浦照明&catalogId=937&pageIndex=1">飞利浦</a></dd>
+				<dd><a title="欧司朗" href="http://www.coo8.com/interfaces/search/showSearchResult.action?sortBy=0&searchKeywords=欧司朗&catalogId=937&pageIndex=1">欧司朗</a></dd>
+
+<dd><a title="好太太" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E5%25A5%25BD%25E5%25A4%25AA%25E5%25A4%25AA
+">好太太</a></dd>
+
+<dd><a title="西门子" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E8%25A5%25BF%25E9%2597%25A8%25E5%25AD%2590%25E5%25BC%2580%25E5%2585%25B3">西门子</a></dd>
+<dd><a title="欧普照明" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E6%25AC%25A7%25E6%2599%25AE%25E7%2585%25A7%25E6%2598%258E">欧普照明</a></dd>
+<dd><a title="金钟" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E9%2587%2591%25E9%2592%259F">金钟</a></dd>
+
+<dd><a title="西蒙" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E8%25A5%25BF%25E8%2592%2599%25E5%25BC%2580%25E5%2585%25B3">西蒙</a></dd>
+
+<dd><a title="多乐士" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E5%25A4%259A%25E4%25B9%2590%25E5%25A3%25AB">多乐士</a></dd>
+
+			</dl>
+ </dl>
+			<dl class="hotActnew clearfix">
+                <dt>促销活动</dt>
+                
+				
+                <dd><a href="http://www.coo8.com/actnew/1076.html" title="家装建材3折起！">家装建材3折起！</a></dd> 
+            </dl>
+        </div>
+        
+        <div class="itemsPanel">
+            <dl class="brands clearfix">
+                <dt>电工电料</dt>
+                <dd><a title="开关面板" href="http://www.coo8.com/products/936-0-0-0-0.html">开关面板</a></dd>
+                <dd><a title="插座" href="http://www.coo8.com/products/631-0-0-0-0.html">插座</a></dd>
+                <dd><a title="电线电料" href="http://www.coo8.com/products/979-0-0-0-0.html">电线电料</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>灯具照明</dt>
+				<dd><a title="台灯" href="http://www.coo8.com/products/1048-0-0-0-0.html">台灯</a></dd>
+				<dd><a title="吸顶灯" href="http://www.coo8.com/products/1049-0-0-0-0.html">吸顶灯</a></dd>
+				<dd><a title="节能灯" href="http://www.coo8.com/products/1046-0-0-0-0.html">节能灯</a></dd>
+				<dd><a title="厨卫灯" href="http://www.coo8.com/products/1047-0-0-0-0.html">厨卫灯</a></dd>
+				<dd><a title="儿童灯" href="http://www.coo8.com/products/1052-0-0-0-0.html">儿童灯</a></dd>
+				<dd><a title="光源配件" href="http://www.coo8.com/products/1051-0-0-0-0.html">光源配件</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>厨房卫浴</dt>
+				<dd><a title="陶瓷洁具" href="http://www.coo8.com/products/947-0-0-0-0.html">陶瓷洁具</a></dd>
+				<dd><a title="卫浴五金" href="http://www.coo8.com/products/940-0-0-0-0.html">卫浴五金</a></dd>
+				<dd><a title="厨用水槽" href="http://www.coo8.com/products/948-0-0-0-0.html">厨用水槽</a></dd>
+				<dd><a title="智能座便" href="http://www.coo8.com/products/1029-0-0-0-0.html">智能座便</a></dd>
+				<dd><a title="浴室柜" href="http://www.coo8.com/products/1059-0-0-0-0.html">浴室柜</a></dd>
+				<dd><a title="浴缸" href="http://www.coo8.com/products/1061-0-0-0-0.html">浴缸</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>生活五金</dt>
+                <dd><a title="五金配件" href="http://www.coo8.com/products/1053-0-0-0-0.html">五金配件</a></dd>
+                <dd><a title="五金挂件" href="http://www.coo8.com/products/1054-0-0-0-0.html">五金挂件</a></dd>
+                <dd><a title="洁身器" href="http://www.coo8.com/products/1056-0-0-0-0.html">洁身器</a></dd>
+                <dd><a title="晾衣架/衣板" href="http://www.coo8.com/products/996-0-0-0-0.html">晾衣架/衣板</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>油漆涂料</dt>
+                <dd><a title="油漆涂料" href="http://www.coo8.com/products/982-0-0-0-0.html">油漆涂料</a></dd>
+             </dl>
+			<dl class="brands clearfix">
+                <dt>墙地材料</dt>
+                <dd><a title="瓷砖" href="http://www.coo8.com/products/956-0-0-0-0.html">瓷砖</a></dd>
+                <dd><a title="地板" href="http://www.coo8.com/products/939-0-0-0-0.html">地板</a></dd>
+             </dl>
+             </dl>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<div class="items jpjj">
+    <h2><a href="http://www.coo8.com/jingpinjiaju/"><b class="extra"></b>精品家居</a></h2>
+    <div class="subItems">
+        <div class="hotPanel">
+            <dl class="hotBrand clearfix">
+                <dt>推荐品牌</dt>
+				<dd><a title="鲨鱼" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=%25E9%25B2%25A8%25E9%25B1%25BC">鲨鱼</a></dd>
+
+<dd><a title="优时Timode
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=Timode">优时Timode
+</a></dd>
+<dd><a title="博洋" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=博洋">博洋</a></dd>
+
+<dd><a title="品源轩" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=品源轩">品源轩</a></dd>
+
+
+<dd><a title="罗莱 
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=罗莱">罗莱 
+</a></dd>
+
+<dd><a title="尚明
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=尚明">尚明
+</a></dd>
+
+<dd><a title="百思寒
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=百思寒">百思寒
+</a></dd>
+
+<dd><a title=" 绿之源
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=绿之源"> 绿之源
+</a></dd>
+<dd><a title="幸福家纺" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=幸福家纺">幸福家纺</a></dd>
+<dd><a title="哈尔斯" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=哈尔斯">哈尔斯</a></dd>
+<dd><a title="维众" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=维众">维众</a></dd>
+
+
+<dd><a title=" 乐扣乐扣 
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=乐扣乐扣"> 乐扣乐扣 
+</a></dd>
+
+<dd><a title=" 空间大师
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=空间大师"> 空间大师
+</a></dd>
+
+<dd><a title=" 如艺 
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=如艺"> 如艺 
+</a></dd>
+<dd><a title="美达斯
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=美达斯">美达斯
+</a></dd>
+<dd><a title="生活元素
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=生活元素">生活元素
+</a></dd>
+
+
+
+
+<dd><a title="MUSTEX
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=MUSTEX">MUSTEX
+</a></dd>
+<dd><a title="鲜乐仕
+" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=鲜乐仕">鲜乐仕
+</a></dd>
+		            </dl>
+			<dl class="hotActnew clearfix">
+                <dt>促销活动</dt>
+                
+				
+                <dd><a href="http://www.coo8.com/actnew/PT2011112704/index.html" title="家居精品2折起！！">家居精品2折起！！</a></dd> 
+            </dl>
+        </div>
+        
+        <div class="itemsPanel">
+			<dl class="brands clearfix">
+                <dt>家居家纺</dt>
+                <dd><a title="床品件套" href="http://www.coo8.com/products/873-0-0-0-0.html">床品件套</a></dd>
+                <dd><a title="被子" href="http://www.coo8.com/products/884-0-0-0-0.html">被子</a></dd>
+                <dd><a title="床垫/床裖" href="http://www.coo8.com/products/959-0-0-0-0.html">床垫/床裖</a></dd>
+                <dd><a title="毛巾被/毯" href="http://www.coo8.com/products/921-0-0-0-0.html">毛巾被/毯</a></dd>
+				<dd><a title="桌布/桌旗" href="http://www.coo8.com/products/882-0-0-0-0.html">桌布/桌旗</a></dd>
+				<dd><a title="枕芯/枕套" href="http://www.coo8.com/products/885-0-0-0-0.html">枕芯/枕套</a></dd>
+				<dd><a title="抱枕/坐垫" href="http://www.coo8.com/products/872-0-0-0-0.html">抱枕/坐垫</a></dd>
+				<dd><a title="毛巾家纺" href="http://www.coo8.com/products/941-0-0-0-0.html">毛巾家纺</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>家居日用</dt>                
+                <dd><a title="收纳整理" href="http://www.coo8.com/products/891-0-0-0-0.html">收纳整理</a></dd>
+                <dd><a title="家居钟表" href="http://www.coo8.com/products/886-0-0-0-0.html">家居钟表</a></dd>
+	     <dd><a title="创意小件" href="http://www.coo8.com/products/879-0-0-0-0.html">创意小件</a></dd>
+                <dd><a title="家居清洁" href="http://www.coo8.com/products/938-0-0-0-0.html">家居清洁</a></dd>
+                <dd><a title="浴室用品" href="http://www.coo8.com/products/881-0-0-0-0.html">浴室用品</a></dd>
+                <dd><a title="装饰画" href="http://www.coo8.com/products/883-0-0-0-0.html">装饰画</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>厨房用品</dt>
+                <dd><a href="http://www.coo8.com/products/865-0-0-0-0.html"title="炒锅">炒锅</a></dd>
+				<dd><a href="http://www.coo8.com/products/704-0-0-0-0.html"title="煎锅">煎锅</a></dd>
+				<dd><a href="http://www.coo8.com/products/742-0-0-0-0.html"title="汤锅">汤锅</a></dd>
+				<dd><a href="http://www.coo8.com/products/703-0-0-0-0.html"title="压力锅">压力锅</a></dd>
+				<dd><a href="http://www.coo8.com/products/989-0-0-0-0.html"title="多用锅">多用锅</a></dd>
+				<dd><a href="http://www.coo8.com/products/707-0-0-0-0.html"title="套锅">套锅</a></dd>
+				<dd><a href="http://www.coo8.com/products/962-0-0-0-0.html"title="刀具">刀具</a></dd>
+                <dd><a title="厨房餐具" href="http://www.coo8.com/products/876-0-0-0-0.html">厨房餐具</a></dd>
+                <dd><a title="厨房收纳" href="http://www.coo8.com/products/874-0-0-0-0.html">厨房收纳</a></dd>
+                <dd><a title="保鲜盒" href="http://www.coo8.com/products/963-0-0-0-0.html">保鲜盒</a></dd>
+                <dd><a title="厨房小件" href="http://www.coo8.com/products/964-0-0-0-0.html">厨房小件</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>精美餐具</dt>
+                <dd><a title="茶具" href="http://www.coo8.com/products/960-0-0-0-0.html">茶具</a></dd>
+                <dd><a title="水具" href="http://www.coo8.com/products/961-0-0-0-0.html">水具</a></dd>
+                <dd><a title="咖啡具" href="http://www.coo8.com/products/330-0-0-0-0.html">咖啡具</a></dd>
+                <dd><a title="碗/盘" href="http://www.coo8.com/products/965-0-0-0-0.html">碗/盘</a></dd>
+                <dd><a title="组合套装" href="http://www.coo8.com/products/966-0-0-0-0.html">组合套装</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>精品家具</dt>
+                <dd><a title="衣柜" href="http://www.coo8.com/products/993-0-0-0-0.html">衣柜</a></dd>
+                <dd><a title="沙发" href="http://www.coo8.com/products/992-0-0-0-0.html">沙发</a></dd>
+                <dd><a title="桌/椅" href="http://www.coo8.com/products/991-0-0-0-0.html">桌/椅</a></dd>
+                <dd><a title="电脑桌" href="http://www.coo8.com/products/967-0-0-0-0.html">电脑桌</a></dd>
+                <dd><a title="边桌/茶几" href="http://www.coo8.com/products/998-0-0-0-0.html">边桌/茶几</a></dd>
+                <dd><a title="鞋架/鞋柜" href="http://www.coo8.com/products/986-0-0-0-0.html">鞋架/鞋柜</a></dd>
+                <dd><a title="置物架" href="http://www.coo8.com/products/997-0-0-0-0.html">置物架</a></dd>
+                <dd><a title="儿童家具" href="http://www.coo8.com/products/995-0-0-0-0.html">儿童家具</a></dd>
+                <dd><a title="书柜/书架" href="http://www.coo8.com/products/1000-0-0-0-0.html">书柜/书架</a></dd>
+                <dd><a title="简式电视柜" href="http://www.coo8.com/products/999-0-0-0-0.html">简式电视柜</a></dd>
+            </dl>			
+
+        </div>
+    </div>
+</div>
+
+<div class="items xqt">
+    <h2><a href="http://www.coo8.com/wanjulipin/"><b class="extra"></b>玩具、礼品</a></h2>
+    <div class="subItems">
+        <div class="hotPanel">
+            <dl class="hotBrand clearfix">
+                <dt>推荐品牌</dt>
+<dd><a title="游卡桌游" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=游卡桌游">游卡桌游</a></dd>
+<dd><a title="木玩世家" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=木玩世家">木玩世家</a></dd>
+<dd><a title="丹妮奇特" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=丹妮奇特">丹妮奇特</a></dd>
+<dd><a title="全家欢" href="http://www.coo8.com/products/908-1948-0-0-0-0.html">全家欢</a></dd>
+<dd><a title="点盛" href="http://www.coo8.com/products/908-1959-0-0-0-0.html">点盛</a></dd>
+				<dd><a title="幻响" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=幻响">幻响</a></dd>
+				<dd><a title="惟有爱" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=惟有爱">惟有爱</a></dd>
+				
+				<dd><a title="海底世界" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=海底世界">海底世界</a></dd>
+				<dd><a title="知识花园" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=知识花园">知识花园</a></dd>
+				<dd><a title="力创电工" href="http://www.coo8.com/interfaces/search/showSearchResult.action?searchKeywords=力创电工">力创电工</a></dd>
+            </dl>
+
+
+
+ <dl class="hotActnew clearfix">
+
+ <dt>促销活动</dt>
+                <dd><a href="http://www.coo8.com/actnew/1071.html" title="毛绒玩具、游戏垫等你拿">毛绒玩具、游戏垫等你拿</a></dd> 
+                           </dl>
+
+        </div>
+        
+        <div class="itemsPanel">
+			<dl class="brands clearfix">
+                <dt>玩具</dt>
+                <dd><a title="益智玩具" href="http://www.coo8.com/products/908-0-0-0-0.html">益智玩具</a></dd>
+                <dd><a title="遥控电动" href="http://www.coo8.com/products/909-0-0-0-0.html">遥控电动</a></dd>
+                <dd><a title="动漫模型" href="http://www.coo8.com/products/911-0-0-0-0.html">动漫模型</a></dd>
+	     <dd><a title="毛绒公仔" href="http://www.coo8.com/products/903-0-0-0-0.html">毛绒公仔</a></dd>
+	     <dd><a title="幼教用品" href="http://www.coo8.com/products/910-0-0-0-0.html">幼教用品</a></dd>
+	     <dd><a title="创意玩具" href="http://www.coo8.com/products/912-0-0-0-0.html">创意玩具</a></dd>
+	     <dd><a title="婴幼玩具" href="http://www.coo8.com/products/930-0-0-0-0.html">婴幼玩具</a></dd>
+	     <dd><a title="乐器玩具" href="http://www.coo8.com/products/1026-0-0-0-0.html">乐器玩具</a></dd>
+	     <dd><a title="儿童文具" href="http://www.coo8.com/products/944-0-0-0-0.html">儿童文具</a></dd>
+            </dl>
+			<dl class="brands clearfix">
+                <dt>礼品首饰</dt>
+                <dd><a title="商务礼品" href="http://www.coo8.com/products/904-0-0-0-0.html">商务礼品</a></dd>
+	     <dd><a title="节庆礼品" href="http://www.coo8.com/products/902-0-0-0-0.html">节庆礼品</a></dd>
+	     <dd><a title="箱包" href="http://www.coo8.com/products/928-0-0-0-0.html">箱包</a></dd>
+	     <dd><a title="珠宝首饰" href="http://www.coo8.com/products/901-0-0-0-0.html">珠宝首饰</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+<div class="rcBottom"></div>
+</textarea>
+<script type="text/javascript">
+$(function(){$("#AllCategories .bd").html($("#allCatalogBlockArea").val());$("#AllCategories .bd").find(".items").hover(function(){$(this).addClass("itemsHover");},function()
+
+{$(this).removeClass("itemsHover");});$("#AllCategories .bd").find(".items").click(function(){if($(this).hasClass("itemsHover")){$(this).removeClass("itemsHover");}else
+
+{$(this).addClass("itemsHover");}});});
+
+</script>
+    <textarea id="hotKeyWordArea"  style="display:none;">
+	<dt>热门搜索：</dt>
+<dd><a href="http://www.coo8.com/products/230-1007-0-0-0-0.html" title="康佳电视
+" target="_blank">康佳电视
+</a></dd>
+
+		
+<dd><a href="http://www.coo8.com/actnew/PT2011120801/#F4" title="冰洗特惠
+" target="_blank">冰洗特惠
+</a></dd>
+
+<dd><a href="http://www.coo8.com/products/920-0-0-0-0.html" title="健身器材
+ " target="_blank"> 健身器材
+ </a></dd>
+
+
+
+<dd><a href="http://www.coo8.com/products/290-1088-0-0-0-0.html" title="联想手机
+" target="_blank">联想手机
+</a></dd>
+
+<dd><a href="http://www.coo8.com/products/353-1140-0-0-0-0.html" title="帅康油烟机
+" target="_blank">帅康油烟机
+</a></dd>
+
+		</textarea>
+
+
+<script type="text/javascript">
+$(function(){
+	$("#hotSearch").html($("#hotKeyWordArea").val());
+});
+</script>
+    <div class="footer">
+        <div class="footerNav clearfix">
+            <dl class="footerItems footerGuide">
+                <dt><b class="micon"></b>购物指南</dt>
+                <dd><a href="http://www.coo8.com/help/rules.html" target="_blank">交易条款</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/flow.html">购物流程</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/orderstate.html">订单状态</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/dajiadian.html">大家电</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/yanbao/">延保服务</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/yijiuhuanxin.html">以旧换新</a></dd>
+<dd><a target="_blank" href="http://www.coo8.com/help/jifen.html">积分说明</a></dd>
+            </dl>
+            <dl class="footerItems footerDistribution">
+                <dt><b class="micon"></b>配送方式</dt>
+                <dd><a target="_blank" href="http://www.coo8.com/help/ziti.html">上门自提</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/wuliu.html">物流配送</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/mianyunfei.html">免运费区域</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/yanhuo.html">验货与签收</a></dd>
+            </dl>
+            <dl class="footerItems footerPay">
+                <dt><b class="micon"></b>支付方式</dt>
+                <dd><a target="_blank" href="http://www.coo8.com/help/daofu.html">货到付款</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/onlinepay.html">在线支付</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/fqfk.html">分期付款</a></dd>
+				<dd><a target="_blank" href="http://www.coo8.com/help/onlinepay.html#yhhk">银行汇款</a></dd>
+            </dl>
+            <dl class="footerItems footerAftermarket">
+                <dt><b class="micon"></b>售后服务</dt>
+                <dd><a target="_blank" href="http://www.coo8.com/help/jiabao.html">价格保护</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/anzhuangbaoxiu.html">安装保修</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/tuihuanhuolc.html#zc">退换货政策</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/tuihuanhuolc.html#lc">退换货流程</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/tuihuanhuolc.html#sm">退款说明</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/changjiatiaokuan.html">厂家服务条款</a></dd>
+            </dl>
+            <dl class="footerItems footerCharacteristic">
+                <dt><b class="micon"></b>自助服务</dt>
+                <dd><a target="_blank" href="http://www.coo8.com/actnew/PT2011120503/index.html">移动客户端</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/faq.html">常见问题</a></dd>
+                <dd><a target="_blank" href="http://my.coo8.com/UCenter/OrderList.aspx">订单查询</a></dd>
+                <dd><a target="_blank" href="http://my.coo8.com/UCenter/ComplaintList.aspx">投诉建议</a></dd>
+                <dd><a target="_blank" href="http://www.coo8.com/help/youhuiquan.html">优惠券使用</a></dd>
+                <dd><a target="_blank" href="http://my.coo8.com/UCenter/MyScore.aspx">积分兑换</a></dd>
+<dd><a target="_blank" href="http://www.coo8.com/help/userlevel.html">会员制度</a></dd>
+            </dl>
+            <div class="footerService">
+                <img src="http://p1.51mdq.com/images/201107/service.png" alt="" />
+                <p class="footerTime">（服务时间：9:00 - 21:00）</p>
+            </div>
+        </div>
+        <div class="footerPic">
+            <img src="http://p1.51mdq.com/images/201107/ft.png" alt="" />
+        </div>
+        <div class="footerLinks"><a href="http://www.coo8.com/about/aboutus.html" target="_blank">关于库巴</a>|<a target="_blank" href="http://www.coo8.com/about/media.html">媒体关注</a>|<a href="http://www.coo8.com/about/contactUs.html" target="_blank">联系我们</a>|<a href="http://www.coo8.com/about/Gy.html" target="_blank">加入供应商</a>|<a href="http://www.coo8.com/about/cooperate.html" target="_blank">商务合作</a>|<a href="http://hr.coo8.com/" target="_blank">诚聘英才</a>|<a href="http://www.coo8.com/campus/" target="_blank">校园招聘</a>|<a href="http://www.coo8.com/about/friend.html" target="_blank">友情链接</a>|<a href="http://www.coo8.com/allcatalog/" target="_blank">网站地图</a></div>
+        <p class="copyright"> Copyright &#169; 2006-2011 <a href="http://www.coo8.com/" title="库巴购物网">Coo8.com</a> <a href="http://www.coo8.com/">库巴</a> 版权所有 <em>京公网安备110107000144</em> <a rel="nofollow" target="_blank" href="http://www.miitbeian.gov.cn/">京ICP证110226号</a></p>
+        <ul class="footerLogos">
+            <li><img src="http://p1.51mdq.com/images/201107/footer01.gif" alt="" /></li>
+            <li><a href="http://huodong.ebrun.com/2010b2c/chatrs.php" target="_blank" rel="nofollow"><img src="http://p1.51mdq.com/images/201107/footer02.gif" /></a></li>
+            <li><img src="http://p1.51mdq.com/images/201107/footer03.gif" alt="" /></li>
+            <li><img src="http://p1.51mdq.com/images/201107/footer04.gif" alt="" /></li>
+            <li><a href="http://www.cic.cn/zhonghua/index.shtml" target="_blank" rel="nofollow"><img src="http://p1.51mdq.com/images/201107/footer05.gif" alt="" /></a></li>
+            <li><img src="http://p1.51mdq.com/images/201107/footer06.gif" alt="" /></li>
+        </ul>
+    </div> 
+    
+    <div id="ga_div" style="display: none">
+</div>
+<div style="display: none">
+		<script type="text/javascript">
+			var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F8ea65e42c8f38c7b543a64654cf44e02' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		
+<!--urchin统计 Start--><script src='http://urchin.coo8.com/urchin.js' type='text/javascript'></script><script type='text/javascript'>    try {        _userv = 2;        _udn = ".coo8.com";        _uacct = 'UA-11292629-1';        urchinTracker();    }    catch (err) { }</script>
+
+<!--urchin统计 End-->
+		<!-- Google再营销代码1 -->
+		<script type="text/javascript">
+			/* <![CDATA[ */
+			var google_conversion_id = 1004043891;
+			var google_conversion_language = "en";
+			var google_conversion_format = "3";
+			var google_conversion_color = "666666";
+			var google_conversion_label = "zANNCIXamQIQ8_zh3gM";
+			var google_conversion_value = 0;
+			/* ]]> */
+		</script>
+		<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"></script>
+		<noscript>
+			<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1004043891/?label=zANNCIXamQIQ8_zh3gM&amp;guid=ON&amp;script=0"/>
+		</noscript>
+<script language="javascript" src=" http://count24.51yes.com/click.aspx?id=241036720&logo=12" charset="gb2312"></script>
+</div>
+</body>
+</html>

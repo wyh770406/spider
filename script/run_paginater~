@@ -1,0 +1,30 @@
+#!/usr/bin/env ruby -EUTF-8
+# encoding: utf-8
+require File.expand_path(File.dirname(__FILE__) + "/../utils/utils")
+require File.expand_path(File.dirname(__FILE__) + "/../utils/optparse")
+require File.expand_path(File.dirname(__FILE__) + "/../downloader") 
+require File.expand_path(File.dirname(__FILE__) + "/../logger")
+
+Spider::Utils.load_mongo(SpiderOptions[:environment])
+Spider::Utils.load_models
+Spider::Utils.load_paginater
+Spider::Utils.load_downloader
+
+include Spider::Logger
+
+CurrentPaginater  = "Spider::#{SpiderOptions[:name].capitalize}Paginater".constantize
+CurrentDownloader = "Spider::#{SpiderOptions[:downloader].capitalize}Downloader".constantize
+def start_paginate(category)
+  paginater = CurrentPaginater.new(category)
+  if paginater.pagination_list
+    paginater.pagination_list.each do |url|
+      page = Page.create :url => url, :kind => SpiderOptions[:name], :category_id => category.id
+      logger.info "Saved Page URL: #{url}" if page.persisted?
+    end
+  end
+  category.update_attributes(:completed => true)
+  logger.info "Completed Category URL: #{category.url}" if category.persisted?
+end
+categories = Category.from_kind(SpiderOptions[:name]).leaves.where(:completed => false).limit(SpiderOptions[:number])
+downloader = CurrentDownloader.new(categories)
+downloader.run{|category| start_paginate(category)}

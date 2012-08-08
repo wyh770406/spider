@@ -1,0 +1,10 @@
+defaults: &defaults
+  host: '211.144.119.115'
+  port: 6379
+development:
+  <<: *defaults
+test:
+  <<: *defaults
+production:
+  <<: *defaults
+

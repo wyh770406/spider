@@ -1,0 +1,52 @@
+#!/usr/bin/env ruby -EUTF-8
+# encoding: utf-8
+require 'open-uri'
+require 'nokogiri'
+require 'timeout'
+require 'rtesseract'
+require File.expand_path(File.dirname(__FILE__) + "/../utils/utils")
+require File.expand_path(File.dirname(__FILE__) + "/../utils/optparse")
+require File.expand_path(File.dirname(__FILE__) + "/../logger")
+
+Spider::Utils.load_mongo(SpiderOptions[:environment])
+Spider::Utils.load_models
+
+include Spider::Logger
+
+#开始解析
+def start_updat(products)
+arrpage = []
+products.each do |product|
+  arrpage << product.product_url.page.url
+end
+
+
+arrpage.uniq!.each do |url|
+
+	doc = Nokogiri::HTML(open(url).read.encode("UTF-8",  :undef => :replace, :replace => "?", :invalid => :replace))
+           base_url = url.split('com')[0]+'com'
+
+           
+	  doc.css("td.cate_route_name a").map do |elem| 
+               if !elem["href"].include?("static/niuren")
+               {
+                :url=>(elem["href"].to_s.include?("http://") ? elem["href"] : [base_url, elem["href"]].join) ,
+                :price=>elem.parent.previous_element.text[/\d+/].to_f 
+                }
+               end
+              end.compact.each do |producturl|
+           puts producturl[:url]
+        product_url = ProductUrl.where(:url=>producturl[:url]).first 
+	product = Product.where(:product_url_id=>product_url.id).first if product_url
+         product.update_attributes!(:price => producturl[:price]) if product && producturl[:price]>0
+           	puts product.product_url.url if product
+	     puts "succesfully update productprice"
+          end
+
+
+end
+
+end
+
+products = Product.from_kind(SpiderOptions[:name]).where(:price=>0).limit(SpiderOptions[:number])
+start_updat(products)

@@ -1,0 +1,103 @@
+#!/usr/bin/env ruby -EUTF-8
+# encoding: utf-8
+
+require File.expand_path(File.dirname(__FILE__) + "/../utils/utils")
+require File.expand_path(File.dirname(__FILE__) + "/../utils/optparse")
+require File.expand_path(File.dirname(__FILE__) + "/../downloader") 
+require File.expand_path(File.dirname(__FILE__) + "/../logger")
+
+Spider::Utils.load_mongo(SpiderOptions[:environment])
+Spider::Utils.load_models
+Spider::Utils.load_redis(SpiderOptions[:environment])
+Spider::Utils.load_parser
+Spider::Utils.load_downloader
+
+include Spider::Logger
+
+CurrentParser = "Spider::#{SpiderOptions[:name].capitalize}Parser".constantize
+CurrentDownloader = "Spider::#{SpiderOptions[:downloader].capitalize}Downloader".constantize
+
+def assoc_category(list, kind)
+  if kind=="yihaodian" || kind=="suning" || kind=="amazon" || kind=="amazonbook" 
+
+    puts list
+    puts "fffffgggggggggghhhhhhhhhhh"
+
+    cate_list = list.map do |name_and_url|
+      puts name_and_url[:name]
+      puts "00000000000000000000" 
+      if Category.where({:name=>name_and_url[:name],:kind=>kind}).first
+        puts "no creation 88888999999"
+        Category.where({:name=>name_and_url[:name],:kind=>kind}).first
+      else
+        puts "creating 8888899999000000"
+        Category.find_or_create_by(name_and_url.merge(:kind => kind))
+      end
+
+    end
+  else
+    cate_list = list.map do |name_and_url|
+      Category.find_or_create_by(name_and_url.merge(:kind => kind))
+    end
+  end
+
+  set_assoc!(cate_list)
+end
+
+def set_assoc!(cate_list)
+  cate_list.each_cons(2) do |pair|
+    parent, child = pair
+    child.parent = parent
+    child.save
+  end
+end
+
+def start_parse(product_url)
+  puts "really takes very long time"
+  puts product_url.url
+  parser = CurrentParser.new(product_url)
+  if parser.attributes[:title].nil? || parser.attributes[:title].strip.empty?
+   if SpiderOptions[:name]=="tmall"
+         product_url.update_attributes(:completed => true)
+   end
+    return
+    
+  end
+	assoc_category(parser.belongs_to_categories, SpiderOptions[:name])
+     if SpiderOptions[:name]=="tmall" || SpiderOptions[:name]=="tuniutour" 
+ 	 title_product = Product.where({:kind=>SpiderOptions[:name],:title=>parser.attributes[:title]}).first
+	  if title_product.nil?
+	    product = Product.create! parser.attributes
+		  if product.persisted?
+		    puts "I donot know why???"
+		    #  logger.info "Parsed Product URL: #{product_url.url}"
+		    product_url.update_attributes(:completed => true)
+		  end
+	  else
+	    product_url.update_attributes(:completed => true)
+	    puts "title already be taken"
+	  end
+  else
+	  product = Product.create! parser.attributes
+	  if product.persisted?
+	    puts "I donot know why???"
+	    #  logger.info "Parsed Product URL: #{product_url.url}"
+	    product_url.update_attributes(:completed => true)
+	  end
+  end
+
+  #begin
+
+  #rescue
+   #if SpiderOptions[:name]=="tmall"
+         #product_url.update_attributes(:completed => true)
+   #end
+   #puts "title already be taken"
+  #else
+  #end
+
+end
+
+product_urls = ProductUrl.from_kind(SpiderOptions[:name]).where(:completed => false).limit(SpiderOptions[:number])
+downloader = CurrentDownloader.new(product_urls)
+downloader.run{|product_url| start_parse(product_url)}

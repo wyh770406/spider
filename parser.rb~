@@ -1,0 +1,103 @@
+# encoding: utf-8
+require File.expand_path(File.dirname(__FILE__) + "/logger")
+
+module Spider
+  class Parser
+    include Spider::Logger
+
+    attr_reader :doc, :product
+    
+    def initialize(product)
+      @product = product
+      @doc = Nokogiri::HTML(product.html)
+    end
+
+    def attributes
+      {
+        :kind => product.kind,
+        :title => title,
+        :product_code => product_code,
+        :price => price,
+        :price_url => price_url,
+        :stock => stock,
+        :image_url => image_url,
+        :score => score,
+        :desc => desc,
+        :standard => standard,
+        :comments => comments,
+        :end_product => end_product,
+        :merchant => merchant,
+        :brand => brand,
+        :brand_type => brand_type,
+        :product_url_id => product.id,
+        :union_url => get_union_url,
+        :order_num => get_order_num
+      }
+    end
+
+    def get_merchant(name)
+      name_str = name
+      merchantobj = Merchant.where(:name => /^(.*?)(#{name_str})/i).first
+      if merchantobj.nil?
+        merchant = Merchant.create(:name =>"当当网")
+      else
+        merchant = merchantobj
+      end
+
+      merchant
+    end
+
+    def origin_base_map(origin_category_map,origin_route_str)
+      origin_category_map.each do |cate_map|
+        if cate_map[0]==origin_route_str
+          puts cate_map[1]
+          puts "matched successfully"
+          cate_map_str = cate_map[1]
+          arr_cate_map_str = cate_map_str.split("-")
+          top_product = TopProduct.where(:name=>arr_cate_map_str[0]).first
+          middle_product = top_product.middle_products.where(:name=>arr_cate_map_str[1]).first if top_product
+          end_product_object = middle_product.end_products.where(:name=>arr_cate_map_str[2]).first if middle_product
+          return end_product_object
+          break
+        end
+      end
+      nil
+    end
+
+  end
+  autoload :DangdangParser,           File.join(File.dirname(__FILE__), "parser", "dangdang_parser")
+  autoload :JingdongParser,           File.join(File.dirname(__FILE__), "parser", "jingdong_parser")
+  autoload :TaobaoParser,	      File.join(File.dirname(__FILE__), "parser", "taobao_parser")
+  autoload :TmallParser,              File.join(File.dirname(__FILE__), "parser", "tmall_parser")
+  autoload :NeweggParser,             File.join(File.dirname(__FILE__), "parser", "newegg_parser")
+  autoload :SuningParser,             File.join(File.dirname(__FILE__), "parser", "suning_parser")
+  autoload :GomeParser,               File.join(File.dirname(__FILE__), "parser", "gome_parser")
+  autoload :Coo8Parser,               File.join(File.dirname(__FILE__), "parser", "coo8_parser")
+  autoload :YihaodianParser,          File.join(File.dirname(__FILE__), "parser", "yihaodian_parser")
+  autoload :VanclParser,              File.join(File.dirname(__FILE__), "parser", "vancl_parser")
+  autoload :MartParser,               File.join(File.dirname(__FILE__), "parser", "mart_parser")
+  autoload :OrangeParser,             File.join(File.dirname(__FILE__), "parser", "orange_parser")
+  autoload :YidiandaParser,           File.join(File.dirname(__FILE__), "parser", "yidianda_parser")
+  autoload :RedbabyParser,            File.join(File.dirname(__FILE__), "parser", "redbaby_parser")
+  autoload :DangdangbookParser,       File.join(File.dirname(__FILE__), "parser", "dangdangbook_parser")
+  autoload :JingdongbookParser,       File.join(File.dirname(__FILE__), "parser", "jingdongbook_parser")
+  autoload :LetaoParser,           File.join(File.dirname(__FILE__), "parser", "letao_parser")
+  autoload :BinggoParser,           File.join(File.dirname(__FILE__), "parser", "binggo_parser")
+  autoload :VjiaParser,           		File.join(File.dirname(__FILE__), "parser", "vjia_parser")
+  autoload :AmazonParser,           		File.join(File.dirname(__FILE__), "parser", "amazon_parser")
+  autoload :TuniuParser,           		File.join(File.dirname(__FILE__), "parser", "tuniu_parser")
+  autoload :AmazonbookParser,           		File.join(File.dirname(__FILE__), "parser", "amazonbook_parser")
+  autoload :MengbashaParser,           		File.join(File.dirname(__FILE__), "parser", "mengbasha_parser")
+  autoload :Pb89Parser,               File.join(File.dirname(__FILE__), "parser", "pb89_parser")
+  autoload :WinxuanParser,               File.join(File.dirname(__FILE__), "parser", "winxuan_parser")
+  autoload :OkbuyParser,               File.join(File.dirname(__FILE__), "parser", "okbuy_parser")
+  autoload :HcyxbookParser,               File.join(File.dirname(__FILE__), "parser", "hcyxbook_parser")
+  autoload :TuniuhotelParser,           		File.join(File.dirname(__FILE__), "parser", "tuniuhotel_parser")
+  autoload :TuniutourParser,           		File.join(File.dirname(__FILE__), "parser", "tuniutour_parser")
+<<<<<<< HEAD
+  autoload :MissleleParser,           		File.join(File.dirname(__FILE__), "parser", "misslele_parser")
+=======
+  autoload :TuniumenpiaoParser,           		File.join(File.dirname(__FILE__), "parser", "tuniumenpiao_parser")
+  autoload :TuniuyoulunParser,           		File.join(File.dirname(__FILE__), "parser", "tuniuyoulun_parser")
+>>>>>>> 5b957aca9baa9b17d4f390890c9770921c7eb637
+end

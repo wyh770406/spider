@@ -1,0 +1,24 @@
+# encoding: utf-8
+require 'nokogiri'
+module Spider
+	class	DangdangbookPaginater < Paginater
+		attr_reader :doc, :url
+		
+		def initialize(item)
+      @url = item.url 
+      @doc = Nokogiri::HTML(item.html)
+		end
+
+		def pagination_list
+                    puts url
+			elems = doc.css('.pageform span')
+			return [] if elems.blank?
+      max_page = elems.last.inner_text.match(/\d+/).to_s.to_i
+			(0...max_page).map do |index|
+				url.gsub(/_Z40\.html/i) do |s|
+					"_P#{index+1}"+s
+				end
+			end
+		end
+	end
+end

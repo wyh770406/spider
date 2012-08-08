@@ -1,0 +1,81 @@
+#!/usr/bin/env ruby -EUTF-8
+# encoding: utf-8
+require 'open-uri'
+require 'timeout'
+require 'rtesseract'
+require File.expand_path(File.dirname(__FILE__) + "/../utils/utils")
+require File.expand_path(File.dirname(__FILE__) + "/../utils/optparse")
+require File.expand_path(File.dirname(__FILE__) + "/../logger")
+
+Spider::Utils.load_mongo(SpiderOptions[:environment])
+Spider::Utils.load_models
+
+include Spider::Logger
+#开始下载
+def download(product)
+  begin
+    puts product.price_url
+    #image = open(File.dirname(__FILE__) + "/../tmp/4e9d293c6803fa780f000000.png").read
+    image = open(product.price_url).read
+  rescue Exception=>e #Timeout::Error, Errno::ECONNREFUSED
+    puts "what happened"
+    product.update_attributes :image_url_exist => false,:order_num=>product.order_num.to_i
+    image = open(File.dirname(__FILE__) + "/../tmp/tesy.png").read
+    logger.error($!)
+  else
+    yield image
+  end
+
+end
+
+def ignore_exception
+  begin
+    yield
+  rescue Exception
+  end
+end
+
+#保存图片到系统
+def save_image(product, image)
+  if SpiderOptions[:name]=="newegg"
+    file = File.expand_path(File.dirname(__FILE__) + "/../tmp/#{product.id}.gif")
+    file_png = File.expand_path(File.dirname(__FILE__) + "/../tmp/#{product.id}.png")
+  else
+    file = File.expand_path(File.dirname(__FILE__) + "/../tmp/#{product.id}.png")
+  end
+  File.open(file, "wb") do |f|
+    f.write image
+  end
+  if SpiderOptions[:name]=="newegg"
+    puts "here here"
+    system "convert #{file} #{file_png}"
+    file_png
+  else
+    file
+  end
+
+end
+#开始解析
+def start_parse(product)
+  download(product) do |image|
+    file = save_image(product, image)
+    puts file
+    file_gif = file.gsub("png","gif")
+    begin 
+    ocr = RTesseract.new(file, :processor => :mini_magick)
+    logger.info(ocr.to_s.force_encoding("UTF-8").gsub(/\s+/, "") + " ---> " + ocr.to_s.force_encoding("UTF-8").scan(/\d|\./).join.to_f.to_s)
+    puts "why not going here!"
+    product.update_attributes! :price => ocr.to_s.force_encoding("UTF-8").scan(/\d|\./).join.to_f,:order_num=>product.order_num.to_i
+    rescue
+    product.update_attributes! :price => 0,:order_num=>product.order_num.to_i
+    else
+    end
+    File.delete(file)
+    File.delete(file_gif) if File.exist?(file_gif)
+  end
+end
+#(:price => nil).and :image_url_exist => true 
+products = Product.from_kind(SpiderOptions[:name]).where(:_id.gt=>BSON::ObjectId("4ee88fe61d41c80d4b002402")).limit(SpiderOptions[:number])
+products.each do |product|
+  start_parse(product)
+end

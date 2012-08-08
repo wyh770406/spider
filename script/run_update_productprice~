@@ -1,0 +1,53 @@
+#!/usr/bin/env ruby -EUTF-8
+# encoding: utf-8
+require 'open-uri'
+require 'nokogiri'
+require 'timeout'
+require 'rtesseract'
+require File.expand_path(File.dirname(__FILE__) + "/../utils/utils")
+require File.expand_path(File.dirname(__FILE__) + "/../utils/optparse")
+require File.expand_path(File.dirname(__FILE__) + "/../logger")
+
+Spider::Utils.load_mongo(SpiderOptions[:environment])
+Spider::Utils.load_models
+
+include Spider::Logger
+
+#开始解析
+def start_updat(product)
+begin
+doc = Nokogiri::HTML(open(product.product_url.url).read.encode("UTF-8",  :undef => :replace, :replace => "?", :invalid => :replace))
+if SpiderOptions[:name]=="tuniuhotel"
+product.update_attributes!(:price => doc.css("#price-num").text.to_f ) 
+elsif SpiderOptions[:name]=="dangdang" 
+product.update_attributes!(:price => doc.css("#salePriceTag/text()").text.sub("￥", "").to_f)
+elsif SpiderOptions[:name]=="mart"
+     puts doc.css("span#today_p em").text
+      product.update_attributes!(:price => doc.css("span#today_p em").text.to_f,:order_num=>product.order_num.to_i) if doc.css("span#today_p em").text.strip!=""
+      product.update_attributes!(:price => doc.css("em.mart_p").text.to_f,:order_num=>product.order_num.to_i) if doc.css("em.mart_p").text.strip!=""
+      product.update_attributes!(:price => 0,:order_num=>product.order_num.to_i) if doc.css("span#today_p em").text.strip=="" && doc.css("em.mart_p").text.strip==""
+#.gsub("￥","")[0,doc.css(".mart_p").text.gsub("￥","") =~ /[\u4e00-\u9fa5]/]
+elsif SpiderOptions[:name]=="amazon"
+product.update_attributes!(:price => doc.css(".priceLarge").text.gsub(/￥|,/,"").strip.to_f,:order_num=>product.order_num.to_i) if doc.css(".priceLarge").text.strip!=""
+elsif SpiderOptions[:name]=="yihaodian"
+product.update_attributes!(:price => doc.css("span#nonMemberPrice").text.to_f,:order_num=>product.order_num.to_i) if doc.css("span#nonMemberPrice").text!=""
+elsif SpiderOptions[:name]=="newegg"
+  if doc.css("#error404 h2/font").text.strip=="详细错误信息：该产品不存在"
+         puts product.product_url.url
+         puts "product does not exist"
+         product.update_attributes!(:price => 0,:order_num=>product.order_num.to_i)
+  end
+end
+
+#puts "succesfully update productprice"
+rescue
+puts "page does not exist!!!!?????"
+product.update_attributes!(:price => 0,:order_num=>product.order_num.to_i)
+else
+end
+end
+#.where(:_id.gt=>BSON::ObjectId("4e9e26f11d41c80d68000af9"))
+products = Product.from_kind(SpiderOptions[:name]).where(:order_num=>646).limit(SpiderOptions[:number])
+products.each do |product|
+  start_updat(product)
+end

@@ -1,0 +1,22 @@
+#encoding: utf-8
+require 'open-uri'
+require 'nokogiri'
+
+module Spider
+  class TuniuFetcher < Fetcher
+    URL = "http://www.tuniu.com"
+    arr_catel=[
+        {
+	  		:name => "北京酒店",
+	  		:url => "http://hotel.tuniu.com/city_200"
+        },
+        {
+	  		:name => "上海酒店",
+	  		:url => "http://hotel.tuniu.com/city_2500"
+        }
+        ]
+    def self.category_list
+      arr_catel
+    end
+  end
+end
