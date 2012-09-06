@@ -1,4 +1,5 @@
 1.结构
+
 .
 |-- Gemfile
 |-- Gemfile.lock
@@ -64,25 +65,43 @@
   sudo apt-get install libcurl4-gnutls-dev
 
 3.各个模块功能：
+
  1.fetcher负责获取网站总分类，是爬虫其他模块的基础
+ 
  2.paginater负责获取分页信息
+ 
  3.digger负责获取产品URL
+ 
  4.parser负责解析从产品URL中抽取出有用信息
+ 
  5.logger负责日志
+ 
  6.encoding负责编码转换，解析等
+ 
  7.downloader负责从网络获取页面HTML，包含三个模块(单线程、多线程、EventIO)
+ 
  8.script负责启动各个模块，并将获取内容存入数据库
+ 
 4.script启动参数
+
  script/run_parser -h帮助信息
+ 
  script/run_parser -eproduction -dty -ndangdang
+ 
  其中－e为环境（production/development）默认为development.
+ 
  -d为以什么方式下载(ty->多线程，normal ->单线程, em -> EventIO)默认为normal,推荐使用ty参数。
+ 
  -s为指定运行哪个网站(dangdang,jingdong,etc)默认是当当
+ 
 5.启动顺序
+
  fetcher -> paginater -> digger -> parser
 
 $ ./script/run_parser -h
+
 Usage: run_parser [options]
+
     -s, --name=spider_name           input spider name to run
                                      Default: dangdang
     -e, --environment=name           Specifies the environment to run this spider under (development/production).
@@ -93,6 +112,7 @@ Usage: run_parser [options]
                                      Default: 1000
 
     -h, --help                       Show this help message.
+
 
   Parser Attributes:
 
