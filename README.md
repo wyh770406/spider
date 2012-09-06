@@ -112,16 +112,19 @@
 
 |   |-- run_paginater
 
-|   `-- run_parser
+|   |-- run_parser
 
-`-- utils
+|-- utils
 
     |-- optparse.rb
     
-    `-- utils.rb
+    |-- utils.rb
+    
+    
 2.运行环境：ruby1.9.2+
 
   sudo apt-get install libcurl4-gnutls-dev
+
 
 3.各个模块功能：
 
