@@ -1,64 +1,123 @@
 1.结构
 
 .
+
 |-- Gemfile
+
 |-- Gemfile.lock
+
 |-- TODO
+
 |-- config
+
 |   `-- mongoid.yml
+
 |-- digger
+
 |   |-- dangdang_digger.rb
+
 |   |-- taobao_digger.rb
+
 |   `-- tmall_digger.rb
+
 |-- digger.rb
+
 |-- downloader
+
 |   |-- em_downloader.rb
+
 |   |-- normal_downloader.rb
+
 |   `-- ty_downloader.rb
+
 |-- downloader.rb
+
 |-- encoding.rb
+
 |-- fetcher
+
 |   |-- dangdang_fetcher.rb
+
 |   |-- jingdong_fetcher.rb
+
 |   |-- newegg_fetcher.rb
+
 |   |-- taobao_fetcher.rb
+
 |   `-- tmall_fetcher.rb
+
 |-- fetcher.rb
+
 |-- log
+
 |   |-- class.log
+
 |   |-- dangdang_parser.log
+
 |   |-- em_downloader.log
+
 |   |-- normal_downloader.log
+
 |   |-- run_dangdang_parser.log
+
 |   `-- ty_downloader.log
+
 |-- logger.rb
+
 |-- models
+
 |   |-- body.rb
+
 |   |-- category.rb
+
 |   |-- comment.rb
+
 |   |-- page.rb
+
 |   |-- product.rb
+
 |   `-- shop.rb
+
 |-- paginater
+
 |   |-- dangdang_paginater.rb
+
 |   |-- newegg_paginater.rb
+
 |   |-- taobao_paginater.rb
+
 |   `-- tmall_paginater.rb
+
 |-- paginater.rb
+
 |-- parser
+
 |   |-- dangdang_parser.rb
+
 |   |-- jingdong_parser.rb
+
 |   |-- taobao_parser.rb
+
 |   `-- tmall_parser.rb
+
 |-- parser.rb
+
 |-- script
+
 |   |-- console
+
 |   |-- run_digger
+
 |   |-- run_fetcher
+
 |   |-- run_paginater
+
 |   `-- run_parser
+
 `-- utils
+
     |-- optparse.rb
+    
     `-- utils.rb
 2.运行环境：ruby1.9.2+
 
