@@ -121,12 +121,12 @@
     |-- utils.rb
     
     
-2.运行环境：ruby1.9.2+
+<h3>2.运行环境：ruby1.9.2+</h3>
 
   sudo apt-get install libcurl4-gnutls-dev
 
 
-3.各个模块功能：
+<h3>3.各个模块功能：</h3>
 
  1.fetcher负责获取网站总分类，是爬虫其他模块的基础
  
@@ -144,7 +144,7 @@
  
  8.script负责启动各个模块，并将获取内容存入数据库
  
-4.script启动参数
+<h3>4.script启动参数</h3>
 
  script/run_parser -h帮助信息
  
@@ -156,7 +156,7 @@
  
  -s为指定运行哪个网站(dangdang,jingdong,etc)默认是当当
  
-5.启动顺序
+<h3>5.启动顺序<h3>
 
  fetcher -> paginater -> digger -> parser
 
@@ -176,7 +176,7 @@ Usage: run_parser [options]
     -h, --help                       Show this help message.
 
 
-  Parser Attributes:
+<h3>  Parser Attributes:</h3>
 
 def title
 end
