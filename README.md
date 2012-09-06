@@ -1,31 +1,19 @@
-<h4>1.结构</h4>
+<h3>1.结构</h3>
 
 .
 
 |-- Gemfile
-
 |-- Gemfile.lock
-
 |-- TODO
-
 |-- config
-
 |   `-- mongoid.yml
-
 |-- digger
-
 |   |-- dangdang_digger.rb
-
 |   |-- taobao_digger.rb
-
 |   `-- tmall_digger.rb
-
 |-- digger.rb
-
 |-- downloader
-
 |   |-- em_downloader.rb
-
 |   |-- normal_downloader.rb
 
 |   `-- ty_downloader.rb
@@ -156,7 +144,7 @@
  
  -s为指定运行哪个网站(dangdang,jingdong,etc)默认是当当
  
-<h3>5.启动顺序<h3>
+<h3>5.启动顺序</h3>
 
  fetcher -> paginater -> digger -> parser
 
