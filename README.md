@@ -95,6 +95,7 @@ Usage: run_parser [options]
     -h, --help                       Show this help message.
 
   Parser Attributes:
+
 def title
 end
 
