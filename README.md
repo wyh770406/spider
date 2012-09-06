@@ -1,19 +1,30 @@
 <h3>1.结构</h3>
 
 .
-
 |-- Gemfile
+
 |-- Gemfile.lock
+
 |-- TODO
+
 |-- config
+
 |   `-- mongoid.yml
+
 |-- digger
+
 |   |-- dangdang_digger.rb
+
 |   |-- taobao_digger.rb
+
 |   `-- tmall_digger.rb
+
 |-- digger.rb
+
 |-- downloader
+
 |   |-- em_downloader.rb
+
 |   |-- normal_downloader.rb
 
 |   `-- ty_downloader.rb
